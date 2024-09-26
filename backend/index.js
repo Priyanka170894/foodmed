@@ -25,13 +25,10 @@ const app = express();
 app.use(express.json()); // For parsing JSON bodies
 
 // CORS Configuration based on environment
-const corsOptions = {
-  origin: process.env.NODE_ENV === 'production'
-    ? process.env.FRONTEND_URL_PROD  // Production Frontend URL
-    : process.env.FRONTEND_URL_DEV,  // Development Frontend URL
-  credentials: true // To allow cookies
-};
-app.use(cors(corsOptions));
+app.use(cors({
+  origin: 'https://secret-temple-94612-64e66da72cb4.herokuapp.com',
+  credentials: true,
+}));
 
 // Helmet Security Headers
 if (process.env.NODE_ENV === 'production') {
