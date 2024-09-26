@@ -53,11 +53,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Connect to MongoDB based on environment
-const MONGO_URI = process.env.NODE_ENV === 'production'
-  ? process.env.MONGO_URI_PROD  // Production MongoDB URI
-  : process.env.MONGO_URI_DEV;  // Development MongoDB URI
+const MONGO_URI = process.env.MONGO_URI_PROD;
 
-mongoose.connect(MONGO_URI || 'mongodb://localhost:27017/foodmedin')
+mongoose.connect(MONGO_URI)
   
   .then(() => console.log(`MongoDB connected to ${MONGO_URI}`))
   .catch((err) => console.error('MongoDB connection error:', err));
