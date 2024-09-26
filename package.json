@@ -15,6 +15,10 @@
   "heroku-postbuild": "cd frontend && npm install && npm run build" 
 },
  
+"engines": {
+    "node": "20.12.1",   
+    "npm": "10.5.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
