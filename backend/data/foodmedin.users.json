@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "66e8179654cc81a3d8b49874"
+  },
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "password": "$2b$10$V3KO1ucwN9Id8DZiePkAPu5PyOG5NzmFvzs7QUVhJY3Ta4qzzD9pe",
+  "mobile": "1234567890",
+  "role": "user",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2024-09-16T11:33:42.381Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T11:33:42.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e82b42f3cd59cb90cee037"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "$2b$10$vckO4Vw5o1mJVvOaLQuxQObElBHTVgeLlN6e/1CvIHlYdt4TVE7ZS",
+  "role": "user",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2024-09-16T12:57:38.316Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T12:57:38.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ed899cd5697d8e1f0153e5"
+  },
+  "name": "testUser",
+  "email": "testuser@example.com",
+  "password": "$2b$10$on2dOh9QJn.RGOsTugxQs.FXrqDlh1hPijueHOPp8mDEZgaVTxmBK",
+  "mobile": "123451233",
+  "role": "user",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2024-09-20T14:41:32.761Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T14:41:32.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ed8fc924e54dce429d03bb"
+  },
+  "name": "Mic Doe",
+  "email": "Mic@example.com",
+  "password": "$2b$10$3JOv0wvGQce/e/mCGLy8vOGGTynlOy09Wb4rhS7juQTQ0SIEgjYEu",
+  "mobile": "1234512345",
+  "role": "user",
+  "addresses": [],
+  "createdAt": {
+    "$date": "2024-09-20T15:07:53.446Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T15:07:53.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee86187f9ca5ede63e2ff1"
+  },
+  "name": "Paraman",
+  "email": "param449@gmail.com",
+  "password": "$2a$10$Wi0Lngi1tCB2fD9nXOnixORJsE28xJtdmNUltvO6IGqji.gnsS2pq",
+  "mobile": "9442513420",
+  "role": "user",
+  "addresses": [
+    {
+      "addressLine1": "Periya Bickatty Village",
+      "addressLine2": "Aruvankadu Post",
+      "city": "Coonoor",
+      "state": "Tamil Nadu",
+      "zipCode": "643202",
+      "country": "India",
+      "_id": {
+        "$oid": "66efff6cabc92175bde785ce"
+      }
+    },
+    {
+      "addressLine1": "Chinna Bickatty Village",
+      "addressLine2": "Aruvankadu Post",
+      "city": "Coonoor",
+      "state": "Tamil Nadu",
+      "zipCode": "643202",
+      "country": "India",
+      "_id": {
+        "$oid": "66f2bb32c6a59a9877c432c5"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-09-21T08:38:48.801Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-26T04:58:08.757Z"
+  },
+  "__v": 24,
+  "resetPasswordExpire": {
+    "$date": "2024-09-26T05:08:08.751Z"
+  },
+  "resetPasswordToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZWU4NjE4N2Y5Y2E1ZWRlNjNlMmZmMSIsImlhdCI6MTcyNzMyNjY4OCwiZXhwIjoxNzI3MzI3Mjg4fQ.B9-vlfeU9IUU9hNg8bKix70-zb_GcTMcjBh6bHBqj64"
+}]

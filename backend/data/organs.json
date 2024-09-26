@@ -1,0 +1,235 @@
+[
+    {
+      "name": "Heart",
+      "diseases": ["66e54f8c438e7938dd9d2241",
+      "66e54f8c438e7938dd9d2242",
+      "66e54f8c438e7938dd9d2243",
+      "66e54f8c438e7938dd9d2244",
+      "66e54f8c438e7938dd9d2245",
+      "66e54f8c438e7938dd9d2246",
+      "66e54f8c438e7938dd9d2247",
+      "66e54f8c438e7938dd9d2248"],
+      "image": "http://localhost:5000/images/heart.png"
+    },
+    {
+      "name": "Lungs",
+      "diseases": ["66e54f8c438e7938dd9d2249",
+      "66e54f8c438e7938dd9d224a",
+      "66e54f8c438e7938dd9d224b",
+      "66e54f8c438e7938dd9d224c",
+      "66e54f8c438e7938dd9d224d",
+      "66e54f8c438e7938dd9d224e",
+      "66e54f8c438e7938dd9d224f",
+      "66e54f8c438e7938dd9d2250"],
+      "image": "http://localhost:5000/images/lungs.png"
+    },
+    {
+      "name": "Brain",
+      "diseases": ["66e54f8c438e7938dd9d2251",
+      "66e54f8c438e7938dd9d2252",
+      "66e54f8c438e7938dd9d2253",
+      "66e54f8c438e7938dd9d2254",
+      "66e54f8c438e7938dd9d2255",
+      "66e54f8c438e7938dd9d2256",
+      "66e54f8c438e7938dd9d2257",
+      "66e54f8c438e7938dd9d2258"],
+      "image": "http://localhost:5000/images/brain.png"
+    },
+    {
+      "name": "Liver",
+      "diseases": ["66e54f8c438e7938dd9d2259",
+      "66e54f8c438e7938dd9d225a",
+      "66e54f8c438e7938dd9d225b",
+      "66e54f8c438e7938dd9d225c",
+      "66e54f8c438e7938dd9d225d",
+      "66e54f8c438e7938dd9d225e",
+      "66e54f8c438e7938dd9d225f",
+      "66e54f8c438e7938dd9d2260"],
+      "image": "http://localhost:5000/images/liver.png"
+    },
+    {
+      "name": "Kidneys",
+      "diseases": ["66e54f8c438e7938dd9d2261",
+      "66e54f8c438e7938dd9d2262",
+      "66e54f8c438e7938dd9d2263",
+      "66e54f8c438e7938dd9d2264",
+      "66e54f8c438e7938dd9d2265",
+      "66e54f8c438e7938dd9d2266",
+      "66e54f8c438e7938dd9d2267",
+      "66e54f8c438e7938dd9d2268"],
+      "image": "http://localhost:5000/images/kidneys.png"
+    },
+    {
+      "name": "Stomach",
+      "diseases": ["66e54f8c438e7938dd9d2269",
+      "66e54f8c438e7938dd9d226a",
+      "66e54f8c438e7938dd9d226b",
+      "66e54f8c438e7938dd9d226c",
+      "66e54f8c438e7938dd9d226d",
+      "66e54f8c438e7938dd9d226e",
+      "66e54f8c438e7938dd9d226f",
+      "66e54f8c438e7938dd9d2270"],
+      "image": "http://localhost:5000/images/stomach.png"
+    },
+    {
+      "name": "Small Intestine",
+      "diseases": ["66e54f8c438e7938dd9d2271",
+      "66e54f8c438e7938dd9d2272",
+      "66e54f8c438e7938dd9d2273",
+      "66e54f8c438e7938dd9d2274",
+      "66e54f8c438e7938dd9d2275",
+      "66e54f8c438e7938dd9d2276",
+      "66e54f8c438e7938dd9d2277",
+      "66e54f8c438e7938dd9d2278"],
+      "image": "http://localhost:5000/images/small_intestine.png"
+    },
+    {
+      "name": "Large Intestine",
+      "diseases": ["66e54f8c438e7938dd9d2279",
+      "66e54f8c438e7938dd9d227a",
+      "66e54f8c438e7938dd9d227b",
+      "66e54f8c438e7938dd9d227c",
+      "66e54f8c438e7938dd9d227d",
+      "66e54f8c438e7938dd9d227e",
+      "66e54f8c438e7938dd9d227f",
+      "66e54f8c438e7938dd9d2280"],
+      "image": "http://localhost:5000/images/large_intestine.png"
+    },
+    {
+      "name": "Pancreas",
+      "diseases": ["66e54f8c438e7938dd9d2281",
+      "66e54f8c438e7938dd9d2282",
+      "66e54f8c438e7938dd9d2283",
+      "66e54f8c438e7938dd9d2284",
+      "66e54f8c438e7938dd9d2285",
+      "66e54f8c438e7938dd9d2286",
+      "66e54f8c438e7938dd9d2287",
+      "66e54f8c438e7938dd9d2288"],
+      "image": "http://localhost:5000/images/pancreas.png"
+    },
+    {
+      "name": "Spleen",
+      "diseases": ["66e54f8c438e7938dd9d2289",
+      "66e54f8c438e7938dd9d228a",
+      "66e54f8c438e7938dd9d228b",
+      "66e54f8c438e7938dd9d228c",
+      "66e54f8c438e7938dd9d228d",
+      "66e54f8c438e7938dd9d228e",
+      "66e54f8c438e7938dd9d228f",
+      "66e54f8c438e7938dd9d2290"],
+      "image": "http://localhost:5000/images/spleen.png"
+    },
+    {
+      "name": "Bladder",
+      "diseases": ["66e54f8c438e7938dd9d2291",
+      "66e54f8c438e7938dd9d2292",
+      "66e54f8c438e7938dd9d2293",
+      "66e54f8c438e7938dd9d2294",
+      "66e54f8c438e7938dd9d2295",
+      "66e54f8c438e7938dd9d2296",
+      "66e54f8c438e7938dd9d2297",
+      "66e54f8c438e7938dd9d2298"],
+      "image": "http://localhost:5000/images/bladder.png"
+    },
+    {
+      "name": "Skin",
+      "diseases": ["66e54f8c438e7938dd9d2299",
+      "66e54f8c438e7938dd9d229a",
+      "66e54f8c438e7938dd9d229b",
+      "66e54f8c438e7938dd9d229c",
+      "66e54f8c438e7938dd9d229d",
+      "66e54f8c438e7938dd9d229e",
+      "66e54f8c438e7938dd9d229f",
+      "66e54f8c438e7938dd9d22a0"],
+      "image": "http://localhost:5000/images/skin.png"
+    },
+    {
+      "name": "Ovaries",
+      "diseases": ["66e54f8c438e7938dd9d22a1",
+      "66e54f8c438e7938dd9d22a2",
+      "66e54f8c438e7938dd9d22a3",
+      "66e54f8c438e7938dd9d22a4",
+      "66e54f8c438e7938dd9d22a5",
+      "66e54f8c438e7938dd9d22a6",
+      "66e54f8c438e7938dd9d22a7",
+      "66e54f8c438e7938dd9d22a8"],
+      "image": "http://localhost:5000/images/ovaries.png"
+    },
+    
+    {
+      "name": "Thyroid Gland",
+      "diseases": ["66e54f8c438e7938dd9d22a9",
+      "66e54f8c438e7938dd9d22aa",
+      "66e54f8c438e7938dd9d22ab",
+      "66e54f8c438e7938dd9d22ac",
+      "66e54f8c438e7938dd9d22ad",
+      "66e54f8c438e7938dd9d22ae",
+      "66e54f8c438e7938dd9d22af",
+      "66e54f8c438e7938dd9d22b0"],
+      "image": "http://localhost:5000/images/thyroid_gland.png"
+    },
+    {
+      "name": "Adrenal Glands",
+      "diseases": ["66e54f8c438e7938dd9d22b1",
+      "66e54f8c438e7938dd9d22b2",
+      "66e54f8c438e7938dd9d22b3",
+      "66e54f8c438e7938dd9d22b4",
+      "66e54f8c438e7938dd9d22b5",
+      "66e54f8c438e7938dd9d22b6",
+      "66e54f8c438e7938dd9d22b7",
+      "66e54f8c438e7938dd9d22b8"],
+      "image": "http://localhost:5000/images/adrenal_glands.png"
+    },
+    
+    {
+      "name": "Gallbladder",
+      "diseases": ["66e54f8c438e7938dd9d22b9",
+      "66e54f8c438e7938dd9d22ba",
+      "66e54f8c438e7938dd9d22bb",
+      "66e54f8c438e7938dd9d22bc",
+      "66e54f8c438e7938dd9d22bd",
+      "66e54f8c438e7938dd9d22be",
+      "66e54f8c438e7938dd9d22bf",
+      "66e54f8c438e7938dd9d22c0"],
+      "image": "http://localhost:5000/images/gallbladder.png"
+    },
+    {
+      "name": "Esophagus",
+      "diseases": ["66e54f8c438e7938dd9d22c1",
+      "66e54f8c438e7938dd9d22c2",
+      "66e54f8c438e7938dd9d22c3",
+      "66e54f8c438e7938dd9d22c4",
+      "66e54f8c438e7938dd9d22c5",
+      "66e54f8c438e7938dd9d22c6",
+      "66e54f8c438e7938dd9d22c7",
+      "66e54f8c438e7938dd9d22c8"],
+      "image": "http://localhost:5000/images/esophagus.png"
+    },
+    
+    {
+      "name": "Thymus",
+      "diseases": ["66e54f8c438e7938dd9d22c9",
+      "66e54f8c438e7938dd9d22ca",
+      "66e54f8c438e7938dd9d22cb",
+      "66e54f8c438e7938dd9d22cc",
+      "66e54f8c438e7938dd9d22cd",
+      "66e54f8c438e7938dd9d22ce",
+      "66e54f8c438e7938dd9d22cf",
+      "66e54f8c438e7938dd9d22d0"],
+      "image": "http://localhost:5000/images/thymus.png"
+    },
+    {
+        "name": "Others",
+        "diseases": ["66e55c38438e7938dd9d22d6",
+      "66e55c38438e7938dd9d22d7",
+      "66e55c38438e7938dd9d22d8",
+      "66e55c38438e7938dd9d22d9",
+      "66e55c38438e7938dd9d22da",
+      "66e55c38438e7938dd9d22db",
+      "66e55c38438e7938dd9d22dc",
+      "66e55c38438e7938dd9d22dd"],
+        "image": "http://localhost:5000/images/others.png"
+      }
+    ]
+      
+        

@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "66f00041abc92175bde78605"
+  },
+  "user": {
+    "$oid": "66ee86187f9ca5ede63e2ff1"
+  },
+  "items": [
+    {
+      "grocery": {
+        "$oid": "66e5b1c7438e7938dd9d234d"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66f06fce1b40a99b0a4c1d4f"
+      }
+    },
+    {
+      "grocery": {
+        "$oid": "66e5b1c7438e7938dd9d2369"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66f19a8319899cf2ee954286"
+      }
+    },
+    {
+      "grocery": {
+        "$oid": "66e5b1c7438e7938dd9d2359"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66f4e1efca07b28dcc2bd525"
+      }
+    },
+    {
+      "grocery": {
+        "$oid": "66e5b1c7438e7938dd9d235a"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66f4e1f0ca07b28dcc2bd533"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-09-22T11:32:17.326Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-26T04:24:16.753Z"
+  },
+  "__v": 23
+}]

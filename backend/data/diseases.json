@@ -1,0 +1,981 @@
+[
+    {
+      
+      "name": "Coronary Artery Disease",
+      "description": "A condition where the major blood vessels supplying the heart are narrowed or blocked.",
+      "motivation": "Your heart has the power to heal and grow stronger with each new day and every healthy choice.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+      
+      "name": "Arrhythmia",
+      "description": "An irregular heartbeat. With medical advances, arrhythmias can be controlled through medication or procedures.",
+      "motivation": "Your heartbeat is unique, and with the right care, it can stay in perfect rhythm.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+    
+      "name": "Heart Failure",
+      "description": "A condition where the heart does not pump as well as it should, but treatment can greatly improve your quality of life.",
+      "motivation": "Each day is a chance to strengthen your heart and keep moving forward.",
+      "organ": "66e44219438e7938dd9d2228" 
+    },
+    {
+      
+      "name": "Atrial Fibrillation (AFib)",
+      "description": "A common form of irregular heartbeat. Treatment and lifestyle changes help reduce complications.",
+      "motivation": "Your heart is resilient, and so are you. Stay strong and beat to your own rhythm.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+      
+      "name": "Valvular Heart Disease",
+      "description": "A condition where one or more heart valves don't function properly. Treatment options can lead to significant improvements.",
+      "motivation": "With every beat, your heart gets stronger and healthier with the right care.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+     
+      "name": "Congenital Heart Disease",
+      "description": "A heart defect present at birth. Modern treatments help individuals lead fulfilling lives.",
+      "motivation": "You were born with a special heart, and with love and care, it’s capable of amazing things.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+     
+      "name": "Hypertensive Heart Disease",
+      "description": "Heart problems caused by high blood pressure. Managing blood pressure can significantly reduce risks.",
+      "motivation": "Each step towards lowering your blood pressure is a step towards a healthier, stronger heart.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    {
+      
+      "name": "Cardiomyopathy",
+      "description": "A disease of the heart muscle, but many treatments help people live actively while managing the condition.",
+      "motivation": "Your heart has the power to heal and grow stronger with each new day and every healthy choice.",
+      "organ": "66e44219438e7938dd9d2228"  
+    },
+    
+        {
+          "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+          "description": "A group of lung diseases that block airflow and make breathing difficult. With the right care, symptoms can be managed effectively.",
+          "motivation": "Every breath is a step toward better health, keep moving forward.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Asthma",
+          "description": "A condition in which airways narrow and swell, causing difficulty breathing. Proper treatment allows you to live an active, fulfilling life.",
+          "motivation": "Breathe easy, every day is an opportunity to strengthen your lungs.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Pneumonia",
+          "description": "An infection that inflames the air sacs in one or both lungs. With prompt treatment, recovery is well within reach.",
+          "motivation": "Your lungs are strong and capable of fighting off illness and regaining full strength.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Pulmonary Fibrosis",
+          "description": "A lung disease that occurs when lung tissue becomes damaged and scarred. With advances in care, patients can manage symptoms and improve quality of life.",
+          "motivation": "With each breath, you are building resilience and strength in your lungs.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Lung Cancer",
+          "description": "A disease where abnormal cells divide uncontrollably in the lungs. Early detection and treatment improve outcomes significantly.",
+          "motivation": "Your journey toward health is filled with hope and strength, one step at a time.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Pulmonary Hypertension",
+          "description": "High blood pressure in the arteries of the lungs. With treatment, people can lead active, full lives.",
+          "motivation": "Your lungs are adaptable and strong, capable of healing with the right care.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Cystic Fibrosis",
+          "description": "A genetic disorder that causes severe damage to the lungs. With modern treatments, patients can live longer, healthier lives.",
+          "motivation": "Every breath you take is a testament to your strength and resilience.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        {
+          "name": "Emphysema",
+          "description": "A type of COPD that causes damage to the air sacs in the lungs. Lifestyle changes and treatment can help manage symptoms and improve breathing.",
+          "motivation": "Every effort you make toward your health brings you closer to better, stronger lungs.",
+          "organ": "66e44219438e7938dd9d2229"
+        },
+        
+            {
+              "name": "Alzheimer's Disease",
+              "description": "A progressive disease that destroys memory and other important mental functions. Early detection and lifestyle changes can slow its progression.",
+              "motivation": "Your mind is a treasure of memories, and with the right support, you can preserve its brilliance.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Parkinson's Disease",
+              "description": "A disorder of the central nervous system that affects movement, often causing tremors. With treatment, many live active and fulfilling lives.",
+              "motivation": "Every step you take is a victory toward strength and control.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Epilepsy",
+              "description": "A neurological disorder marked by sudden recurrent episodes of seizures. With proper medication and lifestyle management, many people live seizure-free.",
+              "motivation": "You have the power to control your journey, one step at a time.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Multiple Sclerosis",
+              "description": "A disease in which the immune system eats away at the protective covering of nerves, causing communication issues between the brain and body. Advances in treatment are helping people live symptom-free longer.",
+              "motivation": "Your spirit is stronger than any challenge, and each day brings new possibilities.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Stroke",
+              "description": "Occurs when blood supply to part of the brain is interrupted, leading to brain cell damage. Rehabilitation can help regain lost abilities.",
+              "motivation": "Recovery is a journey, and every small step forward is a major victory.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Migraine",
+              "description": "A neurological condition that can cause intense headaches, often accompanied by nausea and sensitivity to light and sound. Effective treatments help manage symptoms and prevent attacks.",
+              "motivation": "You are stronger than the pain, and relief is always within reach.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Brain Tumor",
+              "description": "An abnormal growth of cells in the brain. Early detection and treatment can significantly improve outcomes.",
+              "motivation": "Even in the toughest battles, your strength and resilience will shine through.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+              "name": "Amyotrophic Lateral Sclerosis (ALS)",
+              "description": "A progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. Advances in care can improve quality of life.",
+              "motivation": "Your courage is unwavering, and your strength is truly inspirational.",
+              "organ": "66e44219438e7938dd9d222a"
+            },
+            {
+                "name": "Cirrhosis",
+                "description": "A late-stage liver disease caused by scarring and liver damage.",
+                "motivation": "Your liver has the capacity to heal, and each day brings new hope for recovery.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Hepatitis B",
+                "description": "A viral infection that attacks the liver and can cause chronic disease.",
+                "motivation": "With proper treatment, you can manage the disease and support your liver's health.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Hepatitis C",
+                "description": "A liver infection caused by a virus that can lead to serious liver damage.",
+                "motivation": "Your liver can recover with the right care and medication.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Fatty Liver Disease",
+                "description": "A condition where fat builds up in the liver, potentially leading to inflammation.",
+                "motivation": "Healthy lifestyle changes can help reduce fat and restore liver health.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Liver Cancer",
+                "description": "Cancer that starts in the liver cells. Early detection and treatment can improve outcomes.",
+                "motivation": "With early intervention, you have the strength to fight and overcome this challenge.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Hemochromatosis",
+                "description": "A genetic condition causing excessive iron accumulation in the liver.",
+                "motivation": "Proper management can prevent complications and support liver function.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Wilson's Disease",
+                "description": "A genetic disorder leading to excessive copper buildup in the liver.",
+                "motivation": "With timely treatment, you can manage symptoms and maintain liver health.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              {
+                "name": "Autoimmune Hepatitis",
+                "description": "A condition where the immune system attacks the liver, leading to inflammation.",
+                "motivation": "Immunosuppressive therapies can help manage the condition and protect your liver.",
+                "organ": "66e44219438e7938dd9d222b"
+              },
+              
+                  {
+                    "name": "Kidney Stones",
+                    "description": "Hard deposits made of minerals and salts that form inside the kidneys.",
+                    "motivation": "With the right care, your kidneys can flush out what no longer serves you.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Chronic Kidney Disease",
+                    "description": "A condition where the kidneys gradually lose function over time.",
+                    "motivation": "Managing your condition effectively can help preserve kidney function and overall health.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Acute Kidney Injury",
+                    "description": "A sudden loss of kidney function that can be reversible with prompt treatment.",
+                    "motivation": "Early intervention can lead to full recovery and restored kidney function.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Polycystic Kidney Disease",
+                    "description": "A genetic disorder characterized by the growth of cysts in the kidneys.",
+                    "motivation": "With proper management, you can maintain kidney function and quality of life.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Glomerulonephritis",
+                    "description": "Inflammation of the kidney's filtering units, potentially leading to kidney damage.",
+                    "motivation": "Treatment can help reduce inflammation and protect kidney function.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Diabetic Nephropathy",
+                    "description": "Kidney damage caused by diabetes, leading to impaired function.",
+                    "motivation": "With diligent diabetes management, you can prevent further kidney damage.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Kidney Infection (Pyelonephritis)",
+                    "description": "An infection of the kidneys often caused by bacteria.",
+                    "motivation": "Antibiotic treatment can clear the infection and restore kidney health.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  {
+                    "name": "Nephrotic Syndrome",
+                    "description": "A kidney disorder causing excessive protein loss in the urine.",
+                    "motivation": "With treatment, symptoms can be managed effectively, improving quality of life.",
+                    "organ": "66e44219438e7938dd9d222c"
+                  },
+                  
+                      {
+                        "name": "Gastritis",
+                        "description": "An inflammation, irritation, or erosion of the lining of the stomach.",
+                        "motivation": "Every meal is a chance for your stomach to find balance and comfort.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Peptic Ulcer",
+                        "description": "Sores that develop on the lining of the stomach, small intestine, or esophagus.",
+                        "motivation": "With proper treatment, ulcers can heal, bringing relief and comfort.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Stomach Cancer",
+                        "description": "Cancer that begins in the stomach lining and may spread to other parts of the body.",
+                        "motivation": "Early detection and treatment offer hope for successful outcomes and improved health.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Functional Dyspepsia",
+                        "description": "Indigestion with no clear cause, often leading to discomfort and bloating.",
+                        "motivation": "Managing symptoms with dietary changes can bring relief and restore comfort.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Stomach Flu (Gastroenteritis)",
+                        "description": "Inflammation of the stomach and intestines usually caused by an infection.",
+                        "motivation": "Rest and hydration are key to recovery and returning to full health.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Hiatal Hernia",
+                        "description": "A condition where part of the stomach pushes through the diaphragm.",
+                        "motivation": "With proper management, you can reduce symptoms and support digestive health.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Stomach Polyp",
+                        "description": "Growths that form on the lining of the stomach. Most are benign but can be monitored for changes.",
+                        "motivation": "Regular check-ups ensure that any changes are detected early, maintaining health.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      {
+                        "name": "Gastroesophageal Reflux Disease (GERD)",
+                        "description": "A digestive disorder where stomach acid frequently flows back into the esophagus.",
+                        "motivation": "Effective management can alleviate symptoms and improve your overall comfort.",
+                        "organ": "66e44219438e7938dd9d222d"
+                      },
+                      
+                      {
+                            "name": "Celiac Disease",
+                            "description": "An immune reaction to eating gluten that affects the small intestine.",
+                            "motivation": "You can nourish your body while protecting your small intestine from harm.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Crohn's Disease",
+                            "description": "A type of inflammatory bowel disease that can affect any part of the digestive tract, including the small intestine.",
+                            "motivation": "Treatment can help manage symptoms and improve your quality of life.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Irritable Bowel Syndrome (IBS)",
+                            "description": "A common disorder that affects the large intestine but often causes symptoms in the small intestine.",
+                            "motivation": "With the right dietary and lifestyle adjustments, you can find relief and balance.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Small Intestinal Bacterial Overgrowth (SIBO)",
+                            "description": "A condition where excessive bacteria grow in the small intestine.",
+                            "motivation": "Treatment can help restore the balance of bacteria and improve your digestive health.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Small Intestinal Cancer",
+                            "description": "Cancer that starts in the cells of the small intestine.",
+                            "motivation": "Early detection and treatment offer the best chance for successful outcomes.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Mesenteric Ischemia",
+                            "description": "A condition where blood flow to the small intestine is reduced or blocked.",
+                            "motivation": "Timely treatment can restore blood flow and improve symptoms.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Short Bowel Syndrome",
+                            "description": "A condition where the small intestine is too short to absorb enough nutrients.",
+                            "motivation": "Nutritional support and medical care can help manage symptoms and support health.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          {
+                            "name": "Diverticulosis",
+                            "description": "The presence of small pouches (diverticula) that can form in the lining of the small intestine.",
+                            "motivation": "Managing dietary habits can help prevent complications and maintain gut health.",
+                            "organ": "66e44219438e7938dd9d222e"
+                          },
+                          
+                              {
+                                "name": "Colitis",
+                                "description": "An inflammatory condition affecting the large intestine (colon).",
+                                "motivation": "Your large intestine can heal and find balance with the right support.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Colorectal Cancer",
+                                "description": "Cancer that starts in the colon or rectum, often preventable with early screening.",
+                                "motivation": "Early detection and treatment offer hope for successful outcomes and recovery.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Irritable Bowel Syndrome (IBS)",
+                                "description": "A common disorder that affects the large intestine, causing symptoms like cramping and changes in bowel habits.",
+                                "motivation": "Effective management can improve symptoms and enhance your quality of life.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Diverticulitis",
+                                "description": "An infection or inflammation of small pouches (diverticula) in the large intestine.",
+                                "motivation": "Treatment can relieve symptoms and prevent further complications.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Hemorrhoids",
+                                "description": "Swollen veins in the lower rectum or anus, often causing discomfort and bleeding.",
+                                "motivation": "With proper care, hemorrhoids can be managed effectively, bringing relief.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Fecal Incontinence",
+                                "description": "The inability to control bowel movements, leading to accidental stool leakage.",
+                                "motivation": "With treatment and support, you can improve bowel control and restore confidence.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Polyps",
+                                "description": "Small growths on the lining of the large intestine that can sometimes lead to cancer.",
+                                "motivation": "Regular screenings can help detect and remove polyps early, reducing cancer risk.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                              {
+                                "name": "Chronic Constipation",
+                                "description": "A common digestive issue characterized by infrequent bowel movements and difficulty passing stools.",
+                                "motivation": "Dietary changes and treatments can help relieve constipation and improve digestive health.",
+                                "organ": "66e44219438e7938dd9d222f"
+                              },
+                          
+                                  {
+                                    "name": "Pancreatitis",
+                                    "description": "Inflammation of the pancreas that can be acute or chronic.",
+                                    "motivation": "Your pancreas has the strength to recover, and you're on the path to health.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Pancreatic Cancer",
+                                    "description": "Cancer that starts in the pancreas and may spread to other organs.",
+                                    "motivation": "Early detection and treatment offer hope and a chance for a better outcome.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Diabetes Mellitus Type 1",
+                                    "description": "A chronic condition where the pancreas produces little or no insulin.",
+                                    "motivation": "With proper management, you can lead a full life and maintain good health.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Diabetes Mellitus Type 2",
+                                    "description": "A chronic condition where the body becomes resistant to insulin or the pancreas doesn't produce enough.",
+                                    "motivation": "Lifestyle changes and medication can help manage blood sugar levels and improve well-being.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Pancreatic Insufficiency",
+                                    "description": "A condition where the pancreas does not produce enough digestive enzymes.",
+                                    "motivation": "With enzyme replacement therapy, you can support digestion and absorb nutrients effectively.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Cystic Fibrosis",
+                                    "description": "A genetic disorder that affects the lungs and pancreas, leading to thick mucus production.",
+                                    "motivation": "Management and treatment can improve quality of life and support overall health.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Pancreatic Pseudocyst",
+                                    "description": "A fluid-filled sac that can form in the pancreas after an episode of pancreatitis.",
+                                    "motivation": "With appropriate medical care, symptoms can be managed, and health can be restored.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  {
+                                    "name": "Autoimmune Pancreatitis",
+                                    "description": "A type of pancreatitis caused by an autoimmune reaction where the immune system attacks the pancreas.",
+                                    "motivation": "Immunosuppressive treatments can help manage the condition and support pancreatic health.",
+                                    "organ": "66e44219438e7938dd9d2230"
+                                  },
+                                  
+                                      {
+                                        "name": "Splenomegaly",
+                                        "description": "An enlargement of the spleen often caused by infections or other conditions.",
+                                        "motivation": "Your spleen is resilient, and recovery is well within your reach.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Hypersplenism",
+                                        "description": "An overactive spleen that causes excessive destruction of blood cells.",
+                                        "motivation": "Treating the underlying cause can help restore normal spleen function and blood health.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Splenic Rupture",
+                                        "description": "A serious condition where the spleen tears or ruptures, often due to trauma.",
+                                        "motivation": "Prompt medical attention can help manage the injury and support recovery.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Sickle Cell Disease",
+                                        "description": "A genetic disorder that affects red blood cells and can lead to spleen damage.",
+                                        "motivation": "With appropriate care and treatment, you can manage symptoms and support overall health.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Lymphoma",
+                                        "description": "Cancer that begins in the lymphatic system, which includes the spleen.",
+                                        "motivation": "Early treatment and ongoing care offer hope for effective management and recovery.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Splenic Infarction",
+                                        "description": "A condition where blood supply to the spleen is reduced, causing tissue damage.",
+                                        "motivation": "Timely treatment can improve outcomes and support spleen health.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Splenic Cysts",
+                                        "description": "Fluid-filled sacs that can form in the spleen, often asymptomatic.",
+                                        "motivation": "Regular monitoring and management can prevent complications and support spleen health.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      {
+                                        "name": "Autoimmune Hemolytic Anemia",
+                                        "description": "A condition where the immune system destroys red blood cells, affecting the spleen.",
+                                        "motivation": "Effective treatment can manage symptoms and support overall health and well-being.",
+                                        "organ": "66e44219438e7938dd9d2231"
+                                      },
+                                      
+                                          {
+                                            "name": "Urinary Tract Infection (UTI)",
+                                            "description": "An infection in any part of the urinary system, including the bladder.",
+                                            "motivation": "Antibiotic treatment can clear the infection and restore urinary health.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Bladder Cancer",
+                                            "description": "Cancer that starts in the bladder lining and may spread to other organs.",
+                                            "motivation": "Early detection and treatment provide the best chance for successful outcomes.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Interstitial Cystitis",
+                                            "description": "A chronic condition causing bladder pain and frequent, urgent need to urinate.",
+                                            "motivation": "With proper management, you can find relief and improve your quality of life.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Overactive Bladder",
+                                            "description": "A condition where the bladder muscle contracts too often, leading to urgency and frequency.",
+                                            "motivation": "Treatment can help manage symptoms and restore normal bladder function.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Bladder Stones",
+                                            "description": "Hard masses of minerals that form in the bladder and can cause pain and discomfort.",
+                                            "motivation": "Proper hydration and medical treatment can help eliminate stones and relieve symptoms.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Bladder Prolapse",
+                                            "description": "A condition where the bladder drops into the vagina due to weakened pelvic muscles.",
+                                            "motivation": "Pelvic exercises and medical interventions can support bladder health and function.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Post-Micturition Dribble",
+                                            "description": "A condition where urine continues to leak from the bladder after urination.",
+                                            "motivation": "Exercises and treatments can help manage symptoms and improve bladder control.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                          {
+                                            "name": "Bladder Inflammation",
+                                            "description": "Inflammation of the bladder that can cause pain and discomfort during urination.",
+                                            "motivation": "Medical treatment and lifestyle changes can help alleviate symptoms and promote healing.",
+                                            "organ": "66e44219438e7938dd9d2232"
+                                          },
+                                      
+                                              {
+                                                "name": "Acne",
+                                                "description": "A common skin condition that causes pimples, blackheads, and cysts.",
+                                                "motivation": "With proper skincare, you can achieve clear skin and boost your confidence.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Eczema",
+                                                "description": "A condition that causes inflamed, itchy, and red skin.",
+                                                "motivation": "Effective treatments can relieve symptoms and promote healthy, comfortable skin.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Psoriasis",
+                                                "description": "A chronic autoimmune condition that causes rapid skin cell growth, leading to scaly patches.",
+                                                "motivation": "With the right therapy, you can manage symptoms and maintain healthy skin.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Skin Cancer",
+                                                "description": "Cancer that forms in the skin cells, often caused by excessive sun exposure.",
+                                                "motivation": "Early detection and treatment can lead to successful outcomes and skin health.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Rosacea",
+                                                "description": "A condition that causes redness and visible blood vessels on the face.",
+                                                "motivation": "Treatment and lifestyle adjustments can help manage symptoms and improve skin appearance.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Vitiligo",
+                                                "description": "A condition where the skin loses its pigment, resulting in white patches.",
+                                                "motivation": "Treatments can help even skin tone and improve appearance and self-esteem.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Contact Dermatitis",
+                                                "description": "An inflammation of the skin caused by contact with allergens or irritants.",
+                                                "motivation": "Avoiding triggers and using soothing treatments can help your skin heal and recover.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              {
+                                                "name": "Hives",
+                                                "description": "Red, itchy welts on the skin often caused by an allergic reaction.",
+                                                "motivation": "Medication and identifying triggers can provide relief and restore comfort.",
+                                                "organ": "66e44219438e7938dd9d2233"
+                                              },
+                                              
+                                                  {
+                                                    "name": "Polycystic Ovary Syndrome (PCOS)",
+                                                    "description": "A hormonal disorder causing enlarged ovaries with small cysts.",
+                                                    "motivation": "With proper management, you can balance hormones and support overall health.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Ovarian Cancer",
+                                                    "description": "Cancer that begins in the ovaries and may spread to other parts of the body.",
+                                                    "motivation": "Early detection and treatment offer hope for effective management and recovery.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Endometriosis",
+                                                    "description": "A condition where tissue similar to the uterine lining grows outside the uterus.",
+                                                    "motivation": "Effective treatment can help manage symptoms and improve quality of life.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Ovarian Cysts",
+                                                    "description": "Fluid-filled sacs that form on the ovaries, often causing no symptoms.",
+                                                    "motivation": "Many cysts resolve on their own, and regular monitoring can ensure continued health.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Premature Ovarian Failure",
+                                                    "description": "A condition where the ovaries stop functioning before age 40.",
+                                                    "motivation": "Treatment options can help manage symptoms and support reproductive health.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Ovarian Hyperstimulation Syndrome (OHSS)",
+                                                    "description": "A condition where the ovaries become swollen and painful, often due to fertility treatments.",
+                                                    "motivation": "With proper medical care, you can manage symptoms and protect your health.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Ovarian Remnant Syndrome",
+                                                    "description": "A condition where ovarian tissue remains after a surgical removal.",
+                                                    "motivation": "Management and treatment can address symptoms and ensure overall health.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+                                                  {
+                                                    "name": "Functional Ovarian Cysts",
+                                                    "description": "Cysts that form as part of the normal menstrual cycle and often resolve on their own.",
+                                                    "motivation": "These cysts are typically harmless and often disappear with time.",
+                                                    "organ": "66e44219438e7938dd9d2234"
+                                                  },
+      
+                                                  
+                                                      {
+                                                        "name": "Hypothyroidism",
+                                                        "description": "A condition where the thyroid gland is underactive and does not produce enough hormones.",
+                                                        "motivation": "With proper treatment, you can regulate hormone levels and improve energy and well-being.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Hyperthyroidism",
+                                                        "description": "A condition where the thyroid gland is overactive and produces too many hormones.",
+                                                        "motivation": "Effective treatments can help balance hormone levels and restore health.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Thyroid Cancer",
+                                                        "description": "Cancer that starts in the thyroid gland, which may cause lumps or changes in hormone levels.",
+                                                        "motivation": "Early diagnosis and treatment offer the best chance for successful outcomes.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Goiter",
+                                                        "description": "An enlarged thyroid gland that may cause swelling in the neck.",
+                                                        "motivation": "Treatment can address the underlying cause and reduce gland size.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Graves' Disease",
+                                                        "description": "An autoimmune disorder that causes hyperthyroidism and affects the eyes.",
+                                                        "motivation": "Managing the condition with medication can help balance hormone levels and improve quality of life.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Hashimoto's Thyroiditis",
+                                                        "description": "An autoimmune condition where the immune system attacks the thyroid gland, leading to hypothyroidism.",
+                                                        "motivation": "Proper treatment can help regulate thyroid function and support overall health.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Thyroid Nodules",
+                                                        "description": "Lumps or growths in the thyroid gland, which may be benign or cancerous.",
+                                                        "motivation": "Regular monitoring and treatment can ensure proper management and health.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      {
+                                                        "name": "Thyroiditis",
+                                                        "description": "Inflammation of the thyroid gland, which may cause pain and affect hormone levels.",
+                                                        "motivation": "Treatment can reduce inflammation and restore thyroid function.",
+                                                        "organ": "66e44219438e7938dd9d2236"
+                                                      },
+                                                      
+                                                      {
+                                                            "name": "Addison's Disease",
+                                                            "description": "A condition where the adrenal glands do not produce enough hormones, leading to fatigue and muscle weakness.",
+                                                            "motivation": "With proper hormone replacement therapy, you can manage symptoms and live a fulfilling life.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Cushing's Syndrome",
+                                                            "description": "A condition caused by excess cortisol production, leading to weight gain and high blood pressure.",
+                                                            "motivation": "Effective treatments can help restore hormone balance and improve overall health.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Adrenal Insufficiency",
+                                                            "description": "A condition where the adrenal glands do not produce sufficient amounts of hormones.",
+                                                            "motivation": "Proper management can help maintain energy levels and overall well-being.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Adrenal Tumors",
+                                                            "description": "Growths on the adrenal glands that can affect hormone production and overall health.",
+                                                            "motivation": "Surgical and medical treatments offer a path to recovery and better health.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Hyperaldosteronism",
+                                                            "description": "A condition where the adrenal glands produce too much aldosterone, causing high blood pressure.",
+                                                            "motivation": "Treatment options can help manage blood pressure and reduce symptoms.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Primary Adrenal Failure",
+                                                            "description": "A condition where the adrenal glands fail to produce adequate hormones, affecting various bodily functions.",
+                                                            "motivation": "Hormone replacement therapy can help manage symptoms and improve quality of life.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Secondary Adrenal Insufficiency",
+                                                            "description": "A condition where the adrenal glands are not stimulated properly due to problems with the pituitary gland.",
+                                                            "motivation": "Targeted treatment can help address the underlying cause and support adrenal function.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          {
+                                                            "name": "Congenital Adrenal Hyperplasia",
+                                                            "description": "A genetic disorder that affects hormone production in the adrenal glands.",
+                                                            "motivation": "Early diagnosis and treatment can help manage symptoms and improve health outcomes.",
+                                                            "organ": "66e44219438e7938dd9d2237"
+                                                          },
+                                                          
+                                                              {
+                                                                "name": "Gallstones",
+                                                                "description": "Solid particles that form in the gallbladder and can cause pain and discomfort.",
+                                                                "motivation": "Treatment options can help relieve symptoms and restore normal function.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Cholecystitis",
+                                                                "description": "Inflammation of the gallbladder, often caused by gallstones.",
+                                                                "motivation": "With proper medical care, you can manage symptoms and promote healing.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Gallbladder Cancer",
+                                                                "description": "Cancer that starts in the gallbladder and may spread to other parts of the body.",
+                                                                "motivation": "Early detection and treatment can improve outcomes and provide hope for recovery.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Biliary Dyskinesia",
+                                                                "description": "A condition where the gallbladder does not function properly, leading to digestive issues.",
+                                                                "motivation": "Management strategies can help alleviate symptoms and improve digestive health.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Acute Cholecystitis",
+                                                                "description": "A sudden inflammation of the gallbladder, often caused by gallstones.",
+                                                                "motivation": "Prompt treatment can relieve pain and prevent complications.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Chronic Cholecystitis",
+                                                                "description": "Long-term inflammation of the gallbladder, usually due to recurring gallstones.",
+                                                                "motivation": "Ongoing management can help control symptoms and maintain gallbladder health.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Gallbladder Polyps",
+                                                                "description": "Small growths in the gallbladder that may or may not be cancerous.",
+                                                                "motivation": "Regular monitoring and treatment options can help manage and address polyps.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+                                                              {
+                                                                "name": "Gallbladder Sludge",
+                                                                "description": "A mixture of particles that can accumulate in the gallbladder and lead to symptoms.",
+                                                                "motivation": "Treatment and lifestyle changes can help manage sludge and promote gallbladder health.",
+                                                                "organ": "66e44219438e7938dd9d2238"
+                                                              },
+      
+                                                              
+                                                                  {
+                                                                    "name": "Gastroesophageal Reflux Disease (GERD)",
+                                                                    "description": "A condition where stomach acid frequently flows back into the esophagus, causing heartburn.",
+                                                                    "motivation": "Effective treatments can help manage symptoms and prevent complications.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Esophageal Cancer",
+                                                                    "description": "Cancer that starts in the esophagus and may spread to other parts of the body.",
+                                                                    "motivation": "Early detection and treatment offer the best chance for successful outcomes.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Esophagitis",
+                                                                    "description": "Inflammation of the esophagus, often due to infection or irritation.",
+                                                                    "motivation": "Proper treatment can reduce inflammation and restore comfort.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Achalasia",
+                                                                    "description": "A rare condition where the esophagus has trouble moving food into the stomach.",
+                                                                    "motivation": "Treatment options can help improve swallowing and quality of life.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Barrett's Esophagus",
+                                                                    "description": "A condition where the lining of the esophagus changes, often due to GERD.",
+                                                                    "motivation": "Regular monitoring and treatment can help manage symptoms and prevent complications.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Esophageal Varices",
+                                                                    "description": "Swollen veins in the esophagus that can bleed and cause serious complications.",
+                                                                    "motivation": "Medical interventions can help manage and treat this serious condition.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Esophageal Stricture",
+                                                                    "description": "Narrowing of the esophagus that can make swallowing difficult.",
+                                                                    "motivation": "Treatment options can help widen the esophagus and improve swallowing function.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  {
+                                                                    "name": "Lichen Planus of the Esophagus",
+                                                                    "description": "A rare condition where the esophagus becomes inflamed and sore due to an autoimmune reaction.",
+                                                                    "motivation": "Effective treatment can manage symptoms and support overall health.",
+                                                                    "organ": "66e44219438e7938dd9d2239"
+                                                                  },
+                                                                  
+                                                                      {
+                                                                        "name": "Thymoma",
+                                                                        "description": "A tumor of the thymus gland, which may affect immune function.",
+                                                                        "motivation": "Early detection and treatment can improve health outcomes and support recovery.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Myasthenia Gravis",
+                                                                        "description": "An autoimmune disorder that affects the communication between nerves and muscles, often involving the thymus.",
+                                                                        "motivation": "With proper treatment, you can manage symptoms and maintain quality of life.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Thymic Carcinoma",
+                                                                        "description": "A rare type of cancer that originates in the thymus gland.",
+                                                                        "motivation": "Advanced treatments offer hope for managing this rare condition and improving outcomes.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Thymic Hyperplasia",
+                                                                        "description": "Enlargement of the thymus gland, which may be benign or related to other conditions.",
+                                                                        "motivation": "Management and treatment options can help address symptoms and support health.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Thymic Cyst",
+                                                                        "description": "Fluid-filled sacs that can form in the thymus gland, often requiring monitoring.",
+                                                                        "motivation": "Regular check-ups and treatment can help manage cysts and maintain health.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Thymic Disorders",
+                                                                        "description": "A group of conditions affecting the thymus gland's function and health.",
+                                                                        "motivation": "Proper diagnosis and treatment can improve function and quality of life.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Autoimmune Thymitis",
+                                                                        "description": "Inflammation of the thymus gland due to an autoimmune reaction.",
+                                                                        "motivation": "Treatment can help reduce inflammation and manage symptoms effectively.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      {
+                                                                        "name": "Thymic Lymphoma",
+                                                                        "description": "A type of lymphoma that originates in the thymus gland.",
+                                                                        "motivation": "Treatment options are available to manage this type of cancer and support recovery.",
+                                                                        "organ": "66e44219438e7938dd9d223b"
+                                                                      },
+                                                                      
+                                                                        {
+                                                                          "name": "Diabetes Mellitus",
+                                                                          "description": "A chronic condition where the body is unable to properly regulate blood sugar levels, leading to high blood sugar.",
+                                                                          "motivation": "With proper management and care, you can lead a healthy and active life.",
+                                                                          "organ": "66e54093438e7938dd9d223d" 
+                                                                        },
+                                                                        {
+                                                                          "name": "Hypertension (High Blood Pressure)",
+                                                                          "description": "A condition where the blood pressure in the arteries is consistently elevated, which can lead to heart disease and stroke.",
+                                                                          "motivation": "Lifestyle changes and medication can help manage blood pressure and improve overall health.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Asthma",
+                                                                          "description": "A chronic respiratory condition characterized by recurrent attacks of breathlessness and wheezing due to inflammation and narrowing of the airways.",
+                                                                          "motivation": "Avoiding triggers and using medications can help manage asthma effectively.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+                                                                          "description": "A progressive lung disease including emphysema and chronic bronchitis, causing long-term breathing problems.",
+                                                                          "motivation": "With proper treatment and lifestyle changes, you can manage COPD and improve your quality of life.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Hyperlipidemia (High Cholesterol)",
+                                                                          "description": "Elevated levels of lipids (fats) in the blood, which can increase the risk of heart disease and stroke.",
+                                                                          "motivation": "Managing cholesterol through diet and medication can help protect your heart and overall health.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Osteoarthritis",
+                                                                          "description": "A degenerative joint disease characterized by the breakdown of cartilage, causing pain and stiffness in the joints.",
+                                                                          "motivation": "With appropriate treatment and exercise, you can manage pain and maintain mobility.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Gastroesophageal Reflux Disease (GERD)",
+                                                                          "description": "A chronic digestive condition where stomach acid frequently flows back into the esophagus, causing heartburn and discomfort.",
+                                                                          "motivation": "Managing diet and using medications can help reduce symptoms and improve digestive health.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        },
+                                                                        {
+                                                                          "name": "Chronic Kidney Disease (CKD)",
+                                                                          "description": "A condition characterized by a gradual loss of kidney function over time, which can lead to kidney failure and other complications.",
+                                                                          "motivation": "With proper management and treatment, you can slow the progression of CKD and maintain kidney function.",
+                                                                          "organ": "66e54093438e7938dd9d223d"
+                                                                        }
+                                                                      
+                                                                      
+                                                                    
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                            
+                                                        
+                                                        
+                                                    
+                                                    
+                                                
+                                                
+                                            
+                                            
+                                        
+                                        
+                                    
+                                                           
+                                
+                            
+                            
+                        
+                    
+                    
+                
+                
+            
+            
+        ]
+        
+        
+
+
+          
+          
+      
+      
+  
+  

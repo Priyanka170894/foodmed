@@ -1,0 +1,289 @@
+[
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c0a" },
+      "name": "Heart",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c01",
+        "64d2d23c2f3c4d6f2a2b1c02",
+        "64d2d23c2f3c4d6f2a2b1c03",
+        "64d2d23c2f3c4d6f2a2b1c04"
+      ],
+      "image": "http://localhost:5000/images/heart.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c05" },
+      "name": "Liver",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c06",
+        "64d2d23c2f3c4d6f2a2b1c07",
+        "64d2d23c2f3c4d6f2a2b1c08",
+        "64d2d23c2f3c4d6f2a2b1c09"
+      ],
+      "image": "http://localhost:5000/images/liver.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c0b" },
+      "name": "Kidney",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c0c",
+        "64d2d23c2f3c4d6f2a2b1c0d",
+        "64d2d23c2f3c4d6f2a2b1c0e",
+        "64d2d23c2f3c4d6f2a2b1c0f"
+      ],
+      "image": "http://localhost:5000/images/kidney.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c10" },
+      "name": "Lung",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c11",
+        "64d2d23c2f3c4d6f2a2b1c12",
+        "64d2d23c2f3c4d6f2a2b1c13",
+        "64d2d23c2f3c4d6f2a2b1c14"
+      ],
+      "image": "http://localhost:5000/images/lung.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c15" },
+      "name": "Stomach",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c16",
+        "64d2d23c2f3c4d6f2a2b1c17",
+        "64d2d23c2f3c4d6f2a2b1c18",
+        "64d2d23c2f3c4d6f2a2b1c19"
+      ],
+      "image": "http://localhost:5000/images/stomach.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c1a" },
+      "name": "Intestine",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c1b",
+        "64d2d23c2f3c4d6f2a2b1c1c",
+        "64d2d23c2f3c4d6f2a2b1c1d",
+        "64d2d23c2f3c4d6f2a2b1c1e"
+      ],
+      "image": "http://localhost:5000/images/intestine.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c1f" },
+      "name": "Brain",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c20",
+        "64d2d23c2f3c4d6f2a2b1c21",
+        "64d2d23c2f3c4d6f2a2b1c22",
+        "64d2d23c2f3c4d6f2a2b1c23"
+      ],
+      "image": "http://localhost:5000/images/brain.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c24" },
+      "name": "Pancreas",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c25",
+        "64d2d23c2f3c4d6f2a2b1c26",
+        "64d2d23c2f3c4d6f2a2b1c27",
+        "64d2d23c2f3c4d6f2a2b1c28"
+      ],
+      "image": "http://localhost:5000/images/pancreas.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c29" },
+      "name": "Spleen",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c2a",
+        "64d2d23c2f3c4d6f2a2b1c2b",
+        "64d2d23c2f3c4d6f2a2b1c2c",
+        "64d2d23c2f3c4d6f2a2b1c2d"
+      ],
+      "image": "http://localhost:5000/images/spleen.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c2e" },
+      "name": "Bladder",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c2f",
+        "64d2d23c2f3c4d6f2a2b1c30",
+        "64d2d23c2f3c4d6f2a2b1c31",
+        "64d2d23c2f3c4d6f2a2b1c32"
+      ],
+      "image": "http://localhost:5000/images/bladder.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c33" },
+      "name": "Prostate",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c34",
+        "64d2d23c2f3c4d6f2a2b1c35",
+        "64d2d23c2f3c4d6f2a2b1c36",
+        "64d2d23c2f3c4d6f2a2b1c37"
+      ],
+      "image": "http://localhost:5000/images/prostate.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c38" },
+      "name": "Thyroid",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c39",
+        "64d2d23c2f3c4d6f2a2b1c3a",
+        "64d2d23c2f3c4d6f2a2b1c3b",
+        "64d2d23c2f3c4d6f2a2b1c3c"
+      ],
+      "image": "http://localhost:5000/images/thyroid.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c3d" },
+      "name": "Skin",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c3e",
+        "64d2d23c2f3c4d6f2a2b1c3f",
+        "64d2d23c2f3c4d6f2a2b1c40",
+        "64d2d23c2f3c4d6f2a2b1c41"
+      ],
+      "image": "http://localhost:5000/images/skin.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c42" },
+      "name": "Eye",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c43",
+        "64d2d23c2f3c4d6f2a2b1c44",
+        "64d2d23c2f3c4d6f2a2b1c45",
+        "64d2d23c2f3c4d6f2a2b1c46"
+      ],
+      "image": "http://localhost:5000/images/eye.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c47" },
+      "name": "Ear",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c48",
+        "64d2d23c2f3c4d6f2a2b1c49",
+        "64d2d23c2f3c4d6f2a2b1c4a",
+        "64d2d23c2f3c4d6f2a2b1c4b"
+      ],
+      "image": "http://localhost:5000/images/ear.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c4c" },
+      "name": "Nose",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c4d",
+        "64d2d23c2f3c4d6f2a2b1c4e",
+        "64d2d23c2f3c4d6f2a2b1c4f",
+        "64d2d23c2f3c4d6f2a2b1c50"
+      ],
+      "image": "http://localhost:5000/images/nose.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c51" },
+      "name": "Mouth",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c52",
+        "64d2d23c2f3c4d6f2a2b1c53",
+        "64d2d23c2f3c4d6f2a2b1c54",
+        "64d2d23c2f3c4d6f2a2b1c55"
+      ],
+      "image": "http://localhost:5000/images/mouth.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c56" },
+      "name": "Esophagus",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c57",
+        "64d2d23c2f3c4d6f2a2b1c58",
+        "64d2d23c2f3c4d6f2a2b1c59",
+        "64d2d23c2f3c4d6f2a2b1c5a"
+      ],
+      "image": "http://localhost:5000/images/esophagus.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c5b" },
+      "name": "Gallbladder",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c5c",
+        "64d2d23c2f3c4d6f2a2b1c5d",
+        "64d2d23c2f3c4d6f2a2b1c5e",
+        "64d2d23c2f3c4d6f2a2b1c5f"
+      ],
+      "image": "http://localhost:5000/images/gallbladder.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c60" },
+      "name": "Appendix",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c61",
+        "64d2d23c2f3c4d6f2a2b1c62",
+        "64d2d23c2f3c4d6f2a2b1c63",
+        "64d2d23c2f3c4d6f2a2b1c64"
+      ],
+      "image": "http://localhost:5000/images/appendix.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c65" },
+      "name": "Uterus",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c66",
+        "64d2d23c2f3c4d6f2a2b1c67",
+        "64d2d23c2f3c4d6f2a2b1c68",
+        "64d2d23c2f3c4d6f2a2b1c69"
+      ],
+      "image": "http://localhost:5000/images/uterus.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c6a" },
+      "name": "Ovary",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c6b",
+        "64d2d23c2f3c4d6f2a2b1c6c",
+        "64d2d23c2f3c4d6f2a2b1c6d",
+        "64d2d23c2f3c4d6f2a2b1c6e"
+      ],
+      "image": "http://localhost:5000/images/ovary.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c6f" },
+      "name": "Testis",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c70",
+        "64d2d23c2f3c4d6f2a2b1c71",
+        "64d2d23c2f3c4d6f2a2b1c72",
+        "64d2d23c2f3c4d6f2a2b1c73"
+      ],
+      "image": "http://localhost:5000/images/testis.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c74" },
+      "name": "Penis",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c75",
+        "64d2d23c2f3c4d6f2a2b1c76",
+        "64d2d23c2f3c4d6f2a2b1c77",
+        "64d2d23c2f3c4d6f2a2b1c78"
+      ],
+      "image": "http://localhost:5000/images/penis.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c79" },
+      "name": "Rectum",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c7a",
+        "64d2d23c2f3c4d6f2a2b1c7b",
+        "64d2d23c2f3c4d6f2a2b1c7c",
+        "64d2d23c2f3c4d6f2a2b1c7d"
+      ],
+      "image": "http://localhost:5000/images/rectum.png"
+    },
+    {
+      "_id": { "$oid": "64d2d13c2f3c4d6f2a2b1c7e" },
+      "name": "Colon",
+      "diseases": [
+        "64d2d23c2f3c4d6f2a2b1c7f",
+        "64d2d23c2f3c4d6f2a2b1c80",
+        "64d2d23c2f3c4d6f2a2b1c81",
+        "64d2d23c2f3c4d6f2a2b1c82"
+      ],
+      "image": "http://localhost:5000/images/colon.png"
+    }
+  ]
+  

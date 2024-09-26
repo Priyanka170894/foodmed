@@ -1,0 +1,960 @@
+[{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2349"
+  },
+  "name": "Apples",
+  "price": 2.99,
+  "image": "/images/apples.jpg",
+  "quantity": 50,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234a"
+  },
+  "name": "Bananas",
+  "price": 1.99,
+  "image": "/images/bananas.jpg",
+  "quantity": 100,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234b"
+  },
+  "name": "Oranges",
+  "price": 3.49,
+  "image": "/images/oranges.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234c"
+  },
+  "name": "Strawberries",
+  "price": 5.99,
+  "image": "/images/strawberries.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234d"
+  },
+  "name": "Blueberries",
+  "price": 4.99,
+  "image": "/images/blueberries.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234e"
+  },
+  "name": "Pineapples",
+  "price": 4.49,
+  "image": "/images/pineapples.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d234f"
+  },
+  "name": "Mangoes",
+  "price": 3.99,
+  "image": "/images/mangoes.jpg",
+  "quantity": 35,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2350"
+  },
+  "name": "Grapes",
+  "price": 3.29,
+  "image": "/images/grapes.jpg",
+  "quantity": 60,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2351"
+  },
+  "name": "Kiwis",
+  "price": 2.99,
+  "image": "/images/kiwis.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2352"
+  },
+  "name": "Peaches",
+  "price": 3.49,
+  "image": "/images/peaches.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2353"
+  },
+  "name": "Plums",
+  "price": 4.19,
+  "image": "/images/plums.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2354"
+  },
+  "name": "Cherries",
+  "price": 6.99,
+  "image": "/images/cherries.jpg",
+  "quantity": 10,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2355"
+  },
+  "name": "Pears",
+  "price": 2.79,
+  "image": "/images/pears.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2356"
+  },
+  "name": "Watermelons",
+  "price": 5.49,
+  "image": "/images/watermelons.jpg",
+  "quantity": 12,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2357"
+  },
+  "name": "Raspberries",
+  "price": 6.29,
+  "image": "/images/raspberries.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2358"
+  },
+  "name": "Blackberries",
+  "price": 5.99,
+  "image": "/images/blackberries.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2359"
+  },
+  "name": "Lemons",
+  "price": 2.49,
+  "image": "/images/lemons.jpg",
+  "quantity": 45,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235a"
+  },
+  "name": "Limes",
+  "price": 2.19,
+  "image": "/images/limes.jpg",
+  "quantity": 50,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235b"
+  },
+  "name": "Grapefruit",
+  "price": 3.29,
+  "image": "/images/grapefruit.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235c"
+  },
+  "name": "Apricots",
+  "price": 4.99,
+  "image": "/images/apricots.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235d"
+  },
+  "name": "Cantaloupe",
+  "price": 4.49,
+  "image": "/images/cantaloupe.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235e"
+  },
+  "name": "Honeydew",
+  "price": 4.19,
+  "image": "/images/honeydew.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d235f"
+  },
+  "name": "Pomegranates",
+  "price": 5.49,
+  "image": "/images/pomegranates.jpg",
+  "quantity": 12,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2360"
+  },
+  "name": "Avocados",
+  "price": 2.99,
+  "image": "/images/avocados.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2361"
+  },
+  "name": "Persimmons",
+  "price": 3.99,
+  "image": "/images/persimmons.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2362"
+  },
+  "name": "Papayas",
+  "price": 4.79,
+  "image": "/images/papayas.jpg",
+  "quantity": 14,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2363"
+  },
+  "name": "Fig",
+  "price": 5.29,
+  "image": "/images/fig.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2364"
+  },
+  "name": "Tangerines",
+  "price": 3.19,
+  "image": "/images/tangerines.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2365"
+  },
+  "name": "Guava",
+  "price": 5.49,
+  "image": "/images/guava.jpg",
+  "quantity": 16,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2366"
+  },
+  "name": "Mulberries",
+  "price": 6.29,
+  "image": "/images/mulberries.jpg",
+  "quantity": 21,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2367"
+  },
+  "name": "Coconut",
+  "price": 3.99,
+  "image": "/images/coconut.jpg",
+  "quantity": 12,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2368"
+  },
+  "name": "Carrots",
+  "price": 1.49,
+  "image": "/images/carrots.jpg",
+  "quantity": 60,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2369"
+  },
+  "name": "Broccoli",
+  "price": 2.49,
+  "image": "/images/broccoli.jpg",
+  "quantity": 35,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236a"
+  },
+  "name": "Spinach",
+  "price": 3.99,
+  "image": "/images/spinach.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236b"
+  },
+  "name": "Bell Peppers",
+  "price": 2.99,
+  "image": "/images/bell_peppers.jpg",
+  "quantity": 45,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236c"
+  },
+  "name": "Tomatoes",
+  "price": 2.79,
+  "image": "/images/tomatoes.jpg",
+  "quantity": 50,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236d"
+  },
+  "name": "Cauliflower",
+  "price": 2.59,
+  "image": "/images/cauliflower.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236e"
+  },
+  "name": "Cucumbers",
+  "price": 1.79,
+  "image": "/images/cucumbers.jpg",
+  "quantity": 55,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d236f"
+  },
+  "name": "Zucchini",
+  "price": 2.39,
+  "image": "/images/zucchini.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2370"
+  },
+  "name": "Kale",
+  "price": 3.49,
+  "image": "/images/kale.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2371"
+  },
+  "name": "Green Beans",
+  "price": 2.19,
+  "image": "/images/green_beans.jpg",
+  "quantity": 50,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2372"
+  },
+  "name": "Onions",
+  "price": 1.99,
+  "image": "/images/onions.jpg",
+  "quantity": 60,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2373"
+  },
+  "name": "Garlic",
+  "price": 2.79,
+  "image": "/images/garlic.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2374"
+  },
+  "name": "Sweet Potatoes",
+  "price": 2.99,
+  "image": "/images/sweet_potatoes.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2375"
+  },
+  "name": "Beets",
+  "price": 3.19,
+  "image": "/images/beets.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2376"
+  },
+  "name": "Radishes",
+  "price": 1.99,
+  "image": "/images/radishes.jpg",
+  "quantity": 35,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2377"
+  },
+  "name": "Eggplants",
+  "price": 2.89,
+  "image": "/images/eggplants.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2378"
+  },
+  "name": "Mushrooms",
+  "price": 3.59,
+  "image": "/images/mushrooms.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2379"
+  },
+  "name": "Corn",
+  "price": 1.89,
+  "image": "/images/corn.jpg",
+  "quantity": 45,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237a"
+  },
+  "name": "Brussels Sprouts",
+  "price": 2.69,
+  "image": "/images/brussels_sprouts.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237b"
+  },
+  "name": "Leeks",
+  "price": 3.29,
+  "image": "/images/leeks.jpg",
+  "quantity": 28,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237c"
+  },
+  "name": "Pumpkins",
+  "price": 4.19,
+  "image": "/images/pumpkins.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237d"
+  },
+  "name": "Artichokes",
+  "price": 3.89,
+  "image": "/images/artichokes.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237e"
+  },
+  "name": "Asparagus",
+  "price": 4.59,
+  "image": "/images/asparagus.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d237f"
+  },
+  "name": "Cabbage",
+  "price": 2.19,
+  "image": "/images/cabbage.jpg",
+  "quantity": 50,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2380"
+  },
+  "name": "Celery",
+  "price": 1.89,
+  "image": "/images/celery.jpg",
+  "quantity": 45,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2381"
+  },
+  "name": "Swiss Chard",
+  "price": 3.49,
+  "image": "/images/swiss_chard.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2382"
+  },
+  "name": "Chard",
+  "price": 2.89,
+  "image": "/images/chard.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2383"
+  },
+  "name": "Okra",
+  "price": 3.19,
+  "image": "/images/okra.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2384"
+  },
+  "name": "Turnips",
+  "price": 2.39,
+  "image": "/images/turnips.jpg",
+  "quantity": 28,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2385"
+  },
+  "name": "Arugula",
+  "price": 4.49,
+  "image": "/images/arugula.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2386"
+  },
+  "name": "Endive",
+  "price": 3.79,
+  "image": "/images/endive.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2387"
+  },
+  "name": "Fennel",
+  "price": 4.19,
+  "image": "/images/fennel.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2388"
+  },
+  "name": "Bok Choy",
+  "price": 3.59,
+  "image": "/images/bok_choy.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2389"
+  },
+  "name": "Almonds",
+  "price": 7.99,
+  "image": "/images/almonds.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238a"
+  },
+  "name": "Walnuts",
+  "price": 8.49,
+  "image": "/images/walnuts.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238b"
+  },
+  "name": "Cashews",
+  "price": 6.99,
+  "image": "/images/cashews.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238c"
+  },
+  "name": "Raisins",
+  "price": 5.49,
+  "image": "/images/raisins.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238d"
+  },
+  "name": "Dates",
+  "price": 9.99,
+  "image": "/images/dates.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238e"
+  },
+  "name": "Pistachios",
+  "price": 8.99,
+  "image": "/images/pistachios.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d238f"
+  },
+  "name": "Apricots",
+  "price": 7.49,
+  "image": "/images/apricotts.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2390"
+  },
+  "name": "Figs",
+  "price": 6.29,
+  "image": "/images/figgs.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2391"
+  },
+  "name": "Dried Cranberries",
+  "price": 5.99,
+  "image": "/images/dried_cranberries.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2392"
+  },
+  "name": "Mango Chunks",
+  "price": 6.49,
+  "image": "/images/mango_chunks.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2393"
+  },
+  "name": "Goji Berries",
+  "price": 7.79,
+  "image": "/images/goji_berries.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2394"
+  },
+  "name": "Mulberries",
+  "price": 8.29,
+  "image": "/images/mulberriess.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2395"
+  },
+  "name": "Banana Chips",
+  "price": 4.99,
+  "image": "/images/banana_chips.jpg",
+  "quantity": 40,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2396"
+  },
+  "name": "Tamarind",
+  "price": 5.79,
+  "image": "/images/tamarind.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2397"
+  },
+  "name": "Sunflower Seeds",
+  "price": 4.49,
+  "image": "/images/sunflower_seeds.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2398"
+  },
+  "name": "Pumpkin Seeds",
+  "price": 5.29,
+  "image": "/images/pumpkin_seeds.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d2399"
+  },
+  "name": "Chia Seeds",
+  "price": 7.29,
+  "image": "/images/chia_seeds.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239a"
+  },
+  "name": "Hemp Seeds",
+  "price": 8.19,
+  "image": "/images/hemp_seeds.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239b"
+  },
+  "name": "Poppy Seeds",
+  "price": 5.99,
+  "image": "/images/poppy_seeds.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239c"
+  },
+  "name": "Coconut Flakes",
+  "price": 6.49,
+  "image": "/images/coconut_flakes.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239d"
+  },
+  "name": "Cacao Nibs",
+  "price": 7.79,
+  "image": "/images/cacao_nibs.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239e"
+  },
+  "name": "Apricot Kernels",
+  "price": 6.99,
+  "image": "/images/apricot_kernels.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d239f"
+  },
+  "name": "Dried Apples",
+  "price": 4.89,
+  "image": "/images/dried_apples.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a0"
+  },
+  "name": "Dried Pears",
+  "price": 5.19,
+  "image": "/images/dried_pears.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a1"
+  },
+  "name": "Dried Plums",
+  "price": 6.29,
+  "image": "/images/dried_plums.jpg",
+  "quantity": 18,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a2"
+  },
+  "name": "Dried Peaches",
+  "price": 5.79,
+  "image": "/images/dried_peaches.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a3"
+  },
+  "name": "Dried Apricots",
+  "price": 7.99,
+  "image": "/images/dried_apricots.jpg",
+  "quantity": 15,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a4"
+  },
+  "name": "Dried Mangoes",
+  "price": 6.79,
+  "image": "/images/dried_mangoes.jpg",
+  "quantity": 20,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a5"
+  },
+  "name": "Dried Bananas",
+  "price": 5.49,
+  "image": "/images/dried_bananas.jpg",
+  "quantity": 30,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a6"
+  },
+  "name": "Dried Fig",
+  "price": 6.89,
+  "image": "/images/dried_fig.jpg",
+  "quantity": 22,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a7"
+  },
+  "name": "Dried Cranberries",
+  "price": 5.99,
+  "image": "/images/dried_cranberriess.jpg",
+  "quantity": 25,
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "66e5b1c7438e7938dd9d23a8"
+  },
+  "name": "Dried Cherries",
+  "price": 7.29,
+  "image": "/images/dried_cherries.jpg",
+  "quantity": 18,
+  "averageRating": 0
+}]
