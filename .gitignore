@@ -8,7 +8,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
+# Ignore environment variable files
+.env
 
 # Ignore build output (for frontend projects)
 frontend/build
