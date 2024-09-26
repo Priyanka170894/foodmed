@@ -18,7 +18,7 @@ const CartPage = () => {
     // Fetch cart items when the component mounts
     const fetchCartItems = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/cart/', {
+        const response = await fetch('https://your-heroku-app.herokuapp.com/api', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
