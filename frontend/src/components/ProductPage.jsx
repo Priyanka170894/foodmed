@@ -35,7 +35,7 @@ const ProductPage = () => {
         if (organIdFromQuery) {
           response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/organ/${organIdFromQuery}`);
         } else {
-          response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/diseases/`);
+          response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/`);
         }
         const data = await response.json();
         setDiseases(data);
