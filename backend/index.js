@@ -37,11 +37,13 @@ if (process.env.NODE_ENV === 'production') {
     helmet.contentSecurityPolicy({
       directives: {
         defaultSrc: ["'self'"],
+        
         fontSrc: ["'self'", "https://fonts.googleapis.com", "https://fonts.gstatic.com"],
         imgSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com", "data:"],
         frameSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com"],
         scriptSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com", "'unsafe-inline'"],
-        connectSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com"]
+        connectSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com", "https://secret-temple-94612-64e66da72cb4.herokuapp.com"],
+        reportUri: '/csp-violation-report-endpoint', 
       }
     })
   );
