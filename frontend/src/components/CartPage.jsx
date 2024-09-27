@@ -18,7 +18,7 @@ const CartPage = () => {
     // Fetch cart items when the component mounts
     const fetchCartItems = async () => {
       try {
-        const response = await fetch('https://your-heroku-app.herokuapp.com/api', {
+        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/cart', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ const CartPage = () => {
   const handleRemoveFromCart = async (itemId) => {
     const userToken = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/cart/${itemId}`, {
+      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/cart/${itemId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

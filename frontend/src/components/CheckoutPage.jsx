@@ -12,7 +12,7 @@ const CheckoutPage = () => {
   useEffect(() => {
     const fetchAddresses = async () => {
       const userToken = localStorage.getItem('userToken');
-      const response = await fetch('https://your-heroku-app.herokuapp.com/api/users/profile', {
+      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
         headers: {
           'Authorization': `Bearer ${userToken}`,
         },
@@ -23,7 +23,7 @@ const CheckoutPage = () => {
 
     const fetchCartItems = async () => {
       const userToken = localStorage.getItem('userToken');
-      const response = await fetch('https://your-heroku-app.herokuapp.com/api/cart', {
+      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/cart', {
         headers: {
           'Authorization': `Bearer ${userToken}`,
         },
@@ -46,7 +46,7 @@ const CheckoutPage = () => {
     }
 
     try {
-      const response = await fetch('https://your-heroku-app.herokuapp.com/api/orders', {
+      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
