@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import helmet from 'helmet';
 import path from 'path'; 
+
 // Import Routes
 import authRoutes from './routes/authRoutes.js';
 import userRoutes from './routes/userRoutes.js';
@@ -21,23 +22,38 @@ dotenv.config();
 // Initialize the Express application
 const app = express();
 
+app.set('trust proxy', 1); // For Heroku, where requests are routed through a proxy
+
 // Middleware
 app.use(express.json()); // For parsing JSON bodies
 
+// Force HTTPS in production
+if (process.env.NODE_ENV === 'production') {
+  app.use((req, res, next) => {
+    if (req.header('x-forwarded-proto') !== 'https') {
+      return res.redirect(`https://${req.header('host')}${req.url}`);
+    }
+    next();
+  });
+}
+
 // CORS Configuration based on environment
+const allowedOrigins = process.env.NODE_ENV === 'production'
+  ? ['https://secret-temple-94612-64e66da72cb4.herokuapp.com']
+  : ['http://localhost:5000']; // Allow localhost for development
+
 app.use(cors({
-  origin: 'https://secret-temple-94612-64e66da72cb4.herokuapp.com',
+  origin: allowedOrigins,
   credentials: true,
 }));
 
-// Helmet Security Headers
+// Helmet Security Headers for Production Only
 if (process.env.NODE_ENV === 'production') {
   app.use(helmet());
   app.use(
     helmet.contentSecurityPolicy({
       directives: {
         defaultSrc: ["'self'"],
-        
         fontSrc: ["'self'", "https://fonts.googleapis.com", "https://fonts.gstatic.com"],
         imgSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com", "data:"],
         frameSrc: ["'self'", "https://*.paypal.com", "https://*.paypalobjects.com"],
@@ -52,10 +68,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Connect to MongoDB based on environment
-const MONGO_URI = process.env.MONGO_URI_PROD;
+const MONGO_URI = process.env.NODE_ENV === 'production' ? process.env.MONGO_URI_PROD : process.env.MONGO_URI_DEV;
 
 mongoose.connect(MONGO_URI)
-  
   .then(() => console.log(`MongoDB connected to ${MONGO_URI}`))
   .catch((err) => console.error('MongoDB connection error:', err));
 
@@ -76,8 +91,7 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ error: err.message || 'Internal Server Error' });
 });
 
-
-
+// Serve static files in production from the React build folder
 if (process.env.NODE_ENV === 'production') {
   const __dirname = path.resolve(); // Get the current directory
 
