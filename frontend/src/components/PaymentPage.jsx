@@ -15,7 +15,7 @@ const PaymentPage = () => {
   // Function to clear cart items
   const clearCartItems = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/cart/clear', {
+      const response = await fetch('https://your-heroku-app.herokuapp.com/api/cart/clear', {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('userToken')}`,
@@ -35,7 +35,7 @@ const PaymentPage = () => {
   // Handle order status update
   const updateOrderStatus = async (status) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/orders/${orderId}`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/orders/${orderId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ const PaymentPage = () => {
   const handlePayPalPayment = async () => {
     try {
       // Create PayPal order (call your server API to create a PayPal order)
-      const response = await fetch('http://localhost:5000/api/payments/create-paypal-order', {
+      const response = await fetch('https://your-heroku-app.herokuapp.com/api/payments/create-paypal-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

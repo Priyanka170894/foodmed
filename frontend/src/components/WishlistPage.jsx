@@ -17,7 +17,7 @@ const WishlistPage = () => {
 
     const fetchWishlistItems = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/wishlist/', {
+        const response = await fetch('https://your-heroku-app.herokuapp.com/api/wishlist/', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const WishlistPage = () => {
   const handleAddToCart = async (groceryId) => {
     const token = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`http://localhost:5000/api/wishlist/move-to-cart/${groceryId}`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/wishlist/move-to-cart/${groceryId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ const WishlistPage = () => {
   const handleRemoveFromWishlist = async (groceryId) => {
     const token = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`http://localhost:5000/api/wishlist/${groceryId}`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/wishlist/${groceryId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

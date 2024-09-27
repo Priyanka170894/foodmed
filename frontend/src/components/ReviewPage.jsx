@@ -13,7 +13,7 @@ const ReviewPage = () => {
   // Fetch the order details and initialize review data
   const fetchOrderDetails = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/orders/${orderId}`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/orders/${orderId}`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('userToken')}`, // Ensure user is authenticated
@@ -67,7 +67,7 @@ const ReviewPage = () => {
     }));
 
     try {
-      const response = await fetch(`http://localhost:5000/api/orders/${orderId}/review`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/orders/${orderId}/review`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

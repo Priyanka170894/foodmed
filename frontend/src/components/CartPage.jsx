@@ -52,7 +52,7 @@ const CartPage = () => {
   const handleRemoveFromCart = async (itemId) => {
     const userToken = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`http://localhost:5000/api/cart/${itemId}`, {
+      const response = await fetch(`https://your-heroku-app.herokuapp.com/api/cart/${itemId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

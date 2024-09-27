@@ -12,7 +12,7 @@ const HealthConditionSection = () => {
   useEffect(() => {
     const fetchDiseases = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/diseases/organ/${organId}`);
+        const response = await fetch(`https://your-heroku-app.herokuapp.com/api/diseases/organ/${organId}`);
         const data = await response.json();
         setDiseases(data); // Set diseases data to state
       } catch (error) {

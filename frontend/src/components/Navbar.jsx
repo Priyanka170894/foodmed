@@ -31,7 +31,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchDiseases = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/diseases/');
+        const response = await fetch('https://your-heroku-app.herokuapp.com/api/diseases/');
         const data = await response.json();
         setDiseases(data);
       } catch (error) {
