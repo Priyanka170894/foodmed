@@ -14,7 +14,7 @@ export const fetchUserProfile = createAsyncThunk(
         return rejectWithValue('No token found');
       }
 
-      const response = await axios.get('http://localhost:5000/api/users/profile', {
+      const response = await axios.get('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
         headers: {
           Authorization: `Bearer ${token}`, // Include token in Authorization header
         },
@@ -36,7 +36,7 @@ export const updateUserProfile = createAsyncThunk(
         return rejectWithValue('No token found');
       }
 
-      const response = await axios.put('http://localhost:5000/api/users/profile', userData, {
+      const response = await axios.put('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', userData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -58,7 +58,7 @@ export const deleteUser = createAsyncThunk(
         return rejectWithValue('No token found');
       }
 
-      const response = await axios.delete('http://localhost:5000/api/users/profile', {
+      const response = await axios.delete('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -80,7 +80,7 @@ export const addUserAddress = createAsyncThunk(
         return rejectWithValue('No token found');
       }
 
-      const response = await axios.post('http://localhost:5000/api/users/address', addressData, {
+      const response = await axios.post('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/address', addressData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -133,7 +133,7 @@ export const deleteUserAddress = createAsyncThunk(
         return rejectWithValue('No token found');
       }
 
-      const response = await axios.delete(`http://localhost:5000/api/users/address/${addressId}`, {
+      const response = await axios.delete(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/address/${addressId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
