@@ -12,7 +12,7 @@ const CategorySection = () => {
   useEffect(() => {
     const fetchOrgans = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/organs');
+        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/organs');
         const data = await response.json();
         setOrgans(data); // Set organs data to state
       } catch (error) {
