@@ -21,7 +21,7 @@ const OrderPage = () => {
     // Fetch all orders for the logged-in user
     const fetchOrders = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/orders/', {
+        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders/', {
           method: 'GET',
           headers: {
             Authorization: `Bearer ${userToken}`, // User token for authentication
@@ -50,7 +50,7 @@ const OrderPage = () => {
     setIsTracking((prev) => ({ ...prev, [orderId]: true })); // Set tracking as loading
 
     try {
-      const response = await fetch(`http://localhost:5000/api/orders/${orderId}`, {
+      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders/${orderId}`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('userToken')}`,
