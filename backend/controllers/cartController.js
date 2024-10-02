@@ -7,7 +7,7 @@ export const addItemToCart = asyncHandler(async (req, res) => {
  
   const { groceryId, quantity = 1} = req.body; // Default quantity to 1
 
-  // Get user ID from authenticated token (make sure `req.user` is set in your auth middleware)
+  // Get user ID from authenticated token 
   const userId = req.user?._id; // Verify that the user ID is present
 
   // Validation: Check if the required fields are present

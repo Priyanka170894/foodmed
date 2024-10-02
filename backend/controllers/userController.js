@@ -1,4 +1,4 @@
-// controllers/userController.js
+
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
@@ -6,7 +6,7 @@ import asyncHandler from '../middlewares/asyncHandler.js';
 
 
 
-// Create User (Registration)
+
 // Create User (Registration)
 export const createUser = asyncHandler(async (req, res) => {
   const { name, email, password, confirmPassword, mobile } = req.body;
