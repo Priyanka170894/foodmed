@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const HealthConditionSection = () => {
   const [diseases, setDiseases] = useState([]);
@@ -12,7 +13,7 @@ const HealthConditionSection = () => {
   useEffect(() => {
     const fetchDiseases = async () => {
       try {
-        const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/organ/${organId}`);
+        const response = await fetch(`${basePath}/api/diseases/organ/${organId}`);
         const data = await response.json();
         setDiseases(data); // Set diseases data to state
       } catch (error) {

@@ -40,7 +40,7 @@ if (process.env.NODE_ENV === 'production') {
 // CORS Configuration based on environment
 const allowedOrigins = process.env.NODE_ENV === 'production'
   ? ['https://secret-temple-94612-64e66da72cb4.herokuapp.com']
-  : ['http://localhost:5000']; // Allow localhost for development
+  : ['http://localhost:5173']; // Allow localhost for development
 
 app.use(cors({
   origin: allowedOrigins,
@@ -92,7 +92,7 @@ app.use((err, req, res, next) => {
 });
 
 // Serve static files in production from the React build folder
-if (process.env.NODE_ENV === 'production') {
+// if (process.env.NODE_ENV === 'production') {
   const __dirname = path.resolve(); // Get the current directory
 
   // Serve static files from the React app build folder
@@ -102,9 +102,9 @@ if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'frontend/dist/index.html'));
   });
-} else {
-  console.log('Running in development mode. React build folder is not being served.');
-}
+// } else {
+//   console.log('Running in development mode. React build folder is not being served.');
+// }
 
 // Start the server
 const PORT = process.env.PORT || 5000;

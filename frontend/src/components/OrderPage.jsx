@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const OrderPage = () => {
   const [orders, setOrders] = useState([]);
@@ -12,16 +13,16 @@ const OrderPage = () => {
   useEffect(() => {
     // Check if the user is authenticated
     const userToken = localStorage.getItem('userToken');
-    if (!userToken) {
-      // If not authenticated, redirect to the login page
-      navigate('/login');
-      return;
-    }
+    // if (!userToken) {
+    //   // If not authenticated, redirect to the login page
+    //   navigate('/login');
+    //   return;
+    // }
 
     // Fetch all orders for the logged-in user
     const fetchOrders = async () => {
       try {
-        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders/', {
+        const response = await fetch(`${basePath}/api/orders/`, {
           method: 'GET',
           headers: {
             Authorization: `Bearer ${userToken}`, // User token for authentication
@@ -32,6 +33,14 @@ const OrderPage = () => {
         if (response.ok) {
           setOrders(data); // Orders are already sorted by the backend
         } else {
+          if(response.status === 401) {
+            localStorage.removeItem('userToken');
+   localStorage.removeItem('tokenExpiry');
+   localStorage.removeItem('isAuthenticated');
+   localStorage.setItem('sessionExpired', 'true');
+           navigate('/login');
+         }
+
           setError(data.message);
         }
       } catch (error) {
@@ -50,7 +59,7 @@ const OrderPage = () => {
     setIsTracking((prev) => ({ ...prev, [orderId]: true })); // Set tracking as loading
 
     try {
-      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders/${orderId}`, {
+      const response = await fetch(`${basePath}/api/orders/${orderId}`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('userToken')}`,

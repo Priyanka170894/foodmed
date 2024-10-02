@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const ProductPage = () => {
   const [organs, setOrgans] = useState([]);
@@ -16,7 +17,7 @@ const ProductPage = () => {
   useEffect(() => {
     const fetchOrgans = async () => {
       try {
-        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/organs/filter');
+        const response = await fetch(`${basePath}/api/organs/filter`);
         const data = await response.json();
         setOrgans(data); // Set organs data to state
       } catch (error) {
@@ -33,9 +34,9 @@ const ProductPage = () => {
       try {
         let response;
         if (organIdFromQuery) {
-          response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/organ/${organIdFromQuery}`);
+          response = await fetch(`${basePath}/api/diseases/organ/${organIdFromQuery}`);
         } else {
-          response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/`);
+          response = await fetch(`${basePath}/api/diseases/`);
         }
         const data = await response.json();
         setDiseases(data);

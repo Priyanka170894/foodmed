@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const WishlistPage = () => {
   const [wishlistItems, setWishlistItems] = useState([]);
@@ -9,15 +10,15 @@ const WishlistPage = () => {
   useEffect(() => {
     // Check if the user is authenticated
     const userToken = localStorage.getItem('userToken');
-    if (!userToken) {
-      // If not authenticated, redirect to the login page
-      navigate('/login');
-      return;
-    }
+    // if (!userToken) {
+    //   // If not authenticated, redirect to the login page
+    //   navigate('/login');
+    //   return;
+    // }
 
     const fetchWishlistItems = async () => {
       try {
-        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/wishlist/', {
+        const response = await fetch(`${basePath}/api/wishlist/`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -30,6 +31,14 @@ const WishlistPage = () => {
           const data = await response.json();
           setWishlistItems(data.items); // Assuming data.items is the array of wishlist items
         } else {
+          if(response.status === 401) {
+            localStorage.removeItem('userToken');
+   localStorage.removeItem('tokenExpiry');
+   localStorage.removeItem('isAuthenticated');
+   localStorage.setItem('sessionExpired', 'true');
+           navigate('/login');
+         }
+
           console.error('Failed to fetch wishlist items');
         }
       } catch (error) {
@@ -44,7 +53,7 @@ const WishlistPage = () => {
   const handleAddToCart = async (groceryId) => {
     const token = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/wishlist/move-to-cart/${groceryId}`, {
+      const response = await fetch(`${basePath}/api/wishlist/move-to-cart/${groceryId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -70,7 +79,7 @@ const WishlistPage = () => {
   const handleRemoveFromWishlist = async (groceryId) => {
     const token = localStorage.getItem('userToken');
     try {
-      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/wishlist/${groceryId}`, {
+      const response = await fetch(`${basePath}/api/wishlist/${groceryId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

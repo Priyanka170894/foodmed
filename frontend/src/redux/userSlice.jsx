@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 // Helper function to get the token from localStorage
 const getToken = () => localStorage.getItem('userToken');
@@ -11,17 +12,17 @@ export const fetchUserProfile = createAsyncThunk(
     try {
       const token = getToken(); // Get token from localStorage
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({ message: "No token found"});
       }
 
-      const response = await axios.get('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
+      const response = await axios.get(`${basePath}/api/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`, // Include token in Authorization header
         },
       });
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      return rejectWithValue({status:error.response.status, message: error.response.data.message});
     }
   }
 );
@@ -33,17 +34,17 @@ export const updateUserProfile = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({ message: "No token found"});
       }
 
-      const response = await axios.put('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', userData, {
+      const response = await axios.put(`${basePath}/api/users/profile`, userData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       });
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      return rejectWithValue({status:error.response.status, message: error.response.data.message});
     }
   }
 );
@@ -55,17 +56,17 @@ export const deleteUser = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({ message: "No token found"});
       }
 
-      const response = await axios.delete('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
+      const response = await axios.delete(`${basePath}/api/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       });
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      return rejectWithValue({status:error.response.status, message: error.response.data.message});
     }
   }
 );
@@ -77,10 +78,10 @@ export const addUserAddress = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({ message: "No token found"});
       }
 
-      const response = await axios.post('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/address', addressData, {
+      const response = await axios.post(`${basePath}/api/users/address`, addressData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -88,9 +89,9 @@ export const addUserAddress = createAsyncThunk(
       return response.data;
     } catch (error) {
       if (error.response && error.response.data) {
-        return rejectWithValue(error.response.data.message || 'An error occurred while adding the address');
+        return rejectWithValue({status:error.response.status,message: error.response.data.message || 'An error occurred while adding the address'});
       }
-      return rejectWithValue('An unknown error occurred');
+      return rejectWithValue({status:error.response.status,message:'An unknown error occurred'});
     }
   }
 );
@@ -101,11 +102,11 @@ export const updateUserAddress = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({message:'No token found'});
       }
 
       const response = await axios.patch(
-        `https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/address/${addressId}`,
+        `${basePath}/api/users/address/${addressId}`,
         addressData,
         {
           headers: {
@@ -116,9 +117,9 @@ export const updateUserAddress = createAsyncThunk(
       return response.data;
     } catch (error) {
       if (error.response && error.response.data) {
-        return rejectWithValue(error.response.data.message || 'Failed to update address');
+        return rejectWithValue({status:error.response.status,message:error.response.data.message || 'Failed to update address'});
       }
-      return rejectWithValue('An unknown error occurred');
+      return rejectWithValue({message:'An unknown error occurred'});
     }
   }
 );
@@ -130,17 +131,17 @@ export const deleteUserAddress = createAsyncThunk(
     try {
       const token = getToken();
       if (!token) {
-        return rejectWithValue('No token found');
+        return rejectWithValue({message:'No token found'});
       }
 
-      const response = await axios.delete(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/address/${addressId}`, {
+      const response = await axios.delete(`${basePath}/api/users/address/${addressId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       });
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response.data);
+      return rejectWithValue({status:error.response.status,message:error.response.data.message});
     }
   }
 );
@@ -152,7 +153,7 @@ const userSlice = createSlice({
     user: null,
     isAuthenticated: false,
     loading: false,
-    error: null,
+    error: {},
   },
   reducers: {
     logout: (state) => {

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
-
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 const CategorySection = () => {
   const [organs, setOrgans] = useState([]);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1024); // Set the initial screen size
@@ -12,7 +12,7 @@ const CategorySection = () => {
   useEffect(() => {
     const fetchOrgans = async () => {
       try {
-        const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/organs');
+        const response = await fetch(`${basePath}/api/organs`);
         const data = await response.json();
         setOrgans(data); // Set organs data to state
       } catch (error) {

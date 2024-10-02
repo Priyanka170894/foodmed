@@ -8,11 +8,11 @@ import {
   deleteUserAddress,
   updateUserAddress,
 } from '../redux/userSlice';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const AccountPage = () => {
   const dispatch = useDispatch();
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const { user, loading, error } = useSelector((state) => state.user);
 
   const [showAddressForm, setShowAddressForm] = useState(false); // Show/hide address form
@@ -54,6 +54,18 @@ const AccountPage = () => {
       });
     }
   }, [user]);
+
+
+    useEffect(() =>{
+    if(error.status === 401){
+      localStorage.removeItem('userToken');
+      localStorage.removeItem('tokenExpiry');
+      localStorage.removeItem('isAuthenticated');
+      localStorage.setItem('sessionExpired', 'true');
+              navigate('/login');
+  
+    }
+  },[error.status,navigate]);
 
   // Handle profile update
   const handleUpdateProfile = () => {
@@ -129,6 +141,7 @@ const AccountPage = () => {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>{error.message}</p>;
+
 
   return (
     <div className="account-page-container">

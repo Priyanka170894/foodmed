@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {jwtDecode} from 'jwt-decode';
-
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 
 const LoginPage = () => {
@@ -13,7 +13,7 @@ const LoginPage = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/auth/login', {
+      const response = await fetch(`${basePath}/api/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

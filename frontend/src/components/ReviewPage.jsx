@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const ReviewPage = () => {
   const { orderId } = useParams(); // Fetch orderId from the URL parameters
@@ -13,7 +14,7 @@ const ReviewPage = () => {
   // Fetch the order details and initialize review data
   const fetchOrderDetails = async () => {
     try {
-      const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders/${orderId}`, {
+      const response = await fetch(`${basePath}/api/orders/${orderId}`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('userToken')}`, // Ensure user is authenticated

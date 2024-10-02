@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const CheckoutPage = () => {
   const [addresses, setAddresses] = useState([]);
@@ -12,7 +12,7 @@ const CheckoutPage = () => {
   useEffect(() => {
     const fetchAddresses = async () => {
       const userToken = localStorage.getItem('userToken');
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/users/profile', {
+      const response = await fetch(`${basePath}/api/users/profile`, {
         headers: {
           'Authorization': `Bearer ${userToken}`,
         },
@@ -23,7 +23,7 @@ const CheckoutPage = () => {
 
     const fetchCartItems = async () => {
       const userToken = localStorage.getItem('userToken');
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/cart', {
+      const response = await fetch(`${basePath}/api/cart`, {
         headers: {
           'Authorization': `Bearer ${userToken}`,
         },
@@ -46,7 +46,7 @@ const CheckoutPage = () => {
     }
 
     try {
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/orders', {
+      const response = await fetch(`${basePath}/api/orders`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

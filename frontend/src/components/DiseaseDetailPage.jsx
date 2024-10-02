@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+const basePath = import.meta.env.VITE_BASEPATH ?? "";
 
 const DiseaseDetailPage = () => {
   const location = useLocation();
@@ -15,7 +16,7 @@ const DiseaseDetailPage = () => {
   useEffect(() => {
     const fetchDiseaseDetail = async () => {
       try {
-        const response = await fetch(`https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/diseases/${diseaseId}`);
+        const response = await fetch(`${basePath}/api/diseases/${diseaseId}`);
         const data = await response.json();
         setDisease(data);
 
@@ -45,7 +46,7 @@ const DiseaseDetailPage = () => {
     }
   
     try {
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/cart/', {
+      const response = await fetch(`${basePath}/api/cart/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -84,7 +85,7 @@ const DiseaseDetailPage = () => {
     }
   
     try {
-      const response = await fetch('https://secret-temple-94612-64e66da72cb4.herokuapp.com/api/wishlist/', {
+      const response = await fetch(`${basePath}/api/wishlist/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
