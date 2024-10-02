@@ -170,6 +170,7 @@ const userSlice = createSlice({
     builder.addCase(fetchUserProfile.fulfilled, (state, action) => {
       state.loading = false;
       state.user = action.payload;
+      state.error = {};
     });
     builder.addCase(fetchUserProfile.rejected, (state, action) => {
       state.loading = false;

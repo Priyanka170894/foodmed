@@ -39,8 +39,8 @@ if (process.env.NODE_ENV === 'production') {
 
 // CORS Configuration based on environment
 const allowedOrigins = process.env.NODE_ENV === 'production'
-  ? ['https://secret-temple-94612-64e66da72cb4.herokuapp.com']
-  : ['http://localhost:5173']; // Allow localhost for development
+  ? 'https://secret-temple-94612-64e66da72cb4.herokuapp.com'
+  : 'http://localhost:5173'; // Allow localhost for development
 
 app.use(cors({
   origin: allowedOrigins,

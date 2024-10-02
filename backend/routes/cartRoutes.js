@@ -8,7 +8,8 @@ const router = express.Router();
 router.post('/', authenticateToken, addItemToCart); // Add an item to the cart
 router.get('/', authenticateToken, getCart); // Get all cart items for a user
 router.put('/:itemId', authenticateToken, updateCartItem); // Update cart item quantity
-router.delete('/:itemId', authenticateToken, removeCartItem); // Remove an item from the cart
 router.delete('/clear', authenticateToken, clearCart);
+router.delete('/:itemId', authenticateToken, removeCartItem); // Remove an item from the cart
+
 
 export default router;
