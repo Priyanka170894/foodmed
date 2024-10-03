@@ -10,6 +10,12 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
+
+  const checkAuth = () => {
+    const token = localStorage.getItem('userToken'); // Simplified to check only localStorage
+    setIsAuthenticated(!!token); // Set user as authenticated if token exists
+  };
+
   // Check for user authentication status on initial load
   useEffect(() => {
     checkAuth();
@@ -22,11 +28,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const checkAuth = () => {
-    const token = localStorage.getItem('userToken'); // Simplified to check only localStorage
-    setIsAuthenticated(!!token); // Set user as authenticated if token exists
-  };
-
+  
   // Fetch diseases from API
   useEffect(() => {
     const fetchDiseases = async () => {
@@ -98,12 +100,31 @@ const Navbar = () => {
 
   // Handle logout
   const handleLogout = () => {
-    document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    // document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
     localStorage.removeItem('userToken'); // Remove the token from localStorage
+    localStorage.setItem('sessionExpired', 'true');
     setIsAuthenticated(false);
+    window.dispatchEvent(new CustomEvent('authChange')); 
+    window.dispatchEvent(new Event('storage'));
     navigate('/'); // Redirect to homepage after logout
   };
-
+  useEffect(() => {
+    checkAuth(); // Initial check
+  
+    // Listen for the custom authChange event
+    const handleAuthChange = () => {
+      checkAuth();
+    };
+  
+    window.addEventListener('authChange', handleAuthChange);
+    window.addEventListener('storage', handleAuthChange);
+  
+    return () => {
+      window.removeEventListener('authChange', handleAuthChange); // Cleanup event listener on unmount
+      window.removeEventListener('storage', handleAuthChange);
+    };
+  }, []);
+  
   return (
     <div className="navbar">
       <div className="navbar-header">

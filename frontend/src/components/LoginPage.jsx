@@ -85,6 +85,7 @@ const LoginPage = () => {
     if (localStorage.getItem('sessionExpired') === 'true') {
       alert('Session expired, please login again.');
       localStorage.removeItem('sessionExpired'); // Clear the flag after showing the message
+      window.dispatchEvent(new CustomEvent('authChange'));  // Dispatch a custom event to notify the app that the session has expired
     }
   }, []); // Only run once when component mounts
 
