@@ -1198,10 +1198,9 @@ button:hover {
   background-color: #218838;
 }
 
-/* Cart Page Styles */
 .cart-page-container {
   width: 100%;
-  max-width:fit-content;
+  max-width: 800px;
   margin: 50px auto;
   padding: 20px;
   background-color: #cfb5e6;
@@ -1210,19 +1209,12 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
-.cart-page-container h1 {
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cart-items {
+/* Cart Table Styles */
+.cart-table {
   width: 100%;
-
+  border-collapse: collapse;
   margin-bottom: 20px;
 }
 
@@ -1236,11 +1228,12 @@ button:hover {
 .cart-table th {
   background-color: #de71b8;
   font-size: 18px;
+  color: white;
 }
 
 .cart-table td img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
 }
 
@@ -1254,25 +1247,8 @@ button:hover {
   color: #333;
 }
 
-.cart-item-quantity {
-  display: flex;
-  align-items: center;
-}
-
-.quantity-input {
-  width: 50px;
-  text-align: center;
-  margin: 0 10px;
-  padding: 5px;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.remove-item-btn {
+/* Remove Button */
+.remove-item-button {
   background-color: #ff4d4d;
   color: white;
   border: none;
@@ -1282,14 +1258,17 @@ button:hover {
   font-size: 14px;
 }
 
-.remove-item-btn:hover {
+.remove-item-button:hover {
   background-color: #ff1a1a;
 }
 
-.cart-total {
+.cart-summary {
   text-align: right;
+}
+
+.cart-total {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   margin-top: 20px;
 }
 
@@ -1300,7 +1279,7 @@ button:hover {
   color: white;
   padding: 10px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -1313,17 +1292,25 @@ button:hover {
   background-color: #218838;
 }
 
-/* Responsive design */
+/* Responsive Styles */
 @media (max-width: 768px) {
-  .cart-container {
-    padding: 10px;
+  .cart-page-container {
+    max-width: 95%;
+    padding: 15px;
   }
 
-  .cart-items th, .cart-items td {
+  .cart-table th,
+  .cart-table td {
     font-size: 14px;
+    padding: 8px;
   }
 
-  .cart-item-price, .cart-total {
+  .remove-item-button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .cart-total {
     font-size: 18px;
   }
 
@@ -1331,6 +1318,69 @@ button:hover {
     font-size: 16px;
   }
 }
+
+@media (max-width: 500px) {
+  .cart-page-container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .cart-table th,
+  .cart-table td {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .cart-table td img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .remove-item-button {
+    padding: 3px 6px;
+    font-size: 10px;
+  }
+
+  .checkout-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .cart-total {
+    font-size: 16px;
+  }
+
+  /* Stack table rows for better readability on small screens */
+  .cart-table,
+  .cart-table tbody,
+  .cart-table tr {
+    display: block;
+  }
+
+  .cart-table th {
+    display: none; /* Hide table headers */
+  }
+
+  .cart-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cart-table td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+  }
+
+  /* Ensure button fits in table cell */
+  .remove-item-button {
+    width: 80%;
+  }
+}
+
 
 .wishlist-page-container {
   width: 100%;
@@ -1884,3 +1934,250 @@ button:hover {
   }
 }
 
+.message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background for better visibility */
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Ensure it appears on top of other content */
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.message.cart {
+  border: 2px solid #4CAF50; /* Green border for cart success */
+}
+
+.message.wishlist {
+  border: 2px solid #FF6347; /* Red border for wishlist success */
+}
+/* Base Styling for AboutSection */
+.foodmedin {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.question {
+  flex-basis: 25%;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.solution {
+  flex-basis: 70%;
+  min-width: 300px;
+}
+
+.aboutFoodmedin {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn1 {
+  display: inline-block;
+  background: #c116a5;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: background 0.5s;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive Design for AboutSection */
+@media screen and (max-width: 768px) {
+  .row1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .question, .solution {
+    flex-basis: 100%;
+    max-width: 90%;
+  }
+
+  .question img {
+    width: 150px; /* Adjust size for smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .aboutFoodmedin {
+    font-size: 18px; /* Reduce font size for smaller devices */
+    margin-bottom: 15px;
+  }
+
+  .btn1 {
+    padding: 8px 25px;
+    font-size: 16px; /* Smaller text for smaller devices */
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .question img {
+    width: 120px; /* Further reduce image size for very small screens */
+  }
+
+  .aboutFoodmedin {
+    font-size: 16px;
+  }
+
+  .btn1 {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+}
+/* Tablet Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .wishlist-page-container {
+    padding: 10px;
+  }
+
+  .wishlist-page-container h1 {
+    font-size: 20px;
+  }
+
+  .wishlist-table th,
+  .wishlist-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .add-to-cart-button,
+  .remove-from-wishlist-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .wishlist-page-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .wishlist-page-container h1 {
+    font-size: 18px;
+  }
+
+  .wishlist-table th,
+  .wishlist-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .add-to-cart-button,
+  .remove-from-wishlist-button {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
+/* Tablet Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .cart-page-container {
+    padding: 15px;
+  }
+
+  .cart-items th,
+  .cart-items td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .cart-item-price,
+  .cart-total {
+    font-size: 16px;
+  }
+
+  .cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .checkout-btn {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+
+/* Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .cart-page-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .cart-items th,
+  .cart-items td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .cart-item {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .quantity-input {
+    width: 40px;
+    padding: 4px;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .remove-item-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space between other elements */
+    align-self: center;
+  }
+
+  .checkout-btn {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%; /* Ensure it fills the available space */
+    text-align: center;
+    margin-top: 20px;
+  }
+}

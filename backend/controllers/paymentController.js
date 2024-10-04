@@ -3,7 +3,13 @@ import asyncHandler from '../middlewares/asyncHandler.js';
 
 
 // Set up PayPal environment
-const environment = new paypal.core.SandboxEnvironment('AdZmRL-RlHqYjnCKStRJQ3Lws69tvq-x-X9CvlcODoeVUZZWTJLUruPgtPop7-_siSu2-poAcij8L4JU','EEaGmpc12RyNnCdMSUCzy561nt03NDBsQoDXSwc_yC5s1gJ_NSYJ3hwGLNZjq_h6vrQQ80-xaiCRfPn-');
+const environment = new paypal.core.SandboxEnvironment('AbUWzXFCIMFDisRZsgQygOHIImLtz0SQ76s835BuTZLpGdvIM79XXPsPbW9RkP6D5naE86Bmq1rnUkDk','EC13uYUASaF6CLMUYmK2wvw4fIo7V5q1B4MmlIODxgS2Az5HARBAy8vjW0jLfm7RNr1zNw3U-vTWslRU');
+// const environment = new paypal.core.SandboxEnvironment(
+//   process.env.PAYPAL_SANDBOX_CLIENT_ID, // Use the PayPal sandbox client ID from environment variables
+//   process.env.PAYPAL_SANDBOX_CLIENT_SECRET // Use the PayPal sandbox client secret from environment variables
+// );
+
+// console.log(process.env.PAYPAL_SANDBOX_CLIENT_ID,process.env.PAYPAL_SANDBOX_CLIENT_SECRET);
 const client = new paypal.core.PayPalHttpClient(environment);
 
 // Create a payment order (test mode)

@@ -5,8 +5,33 @@ const basePath = import.meta.env.VITE_BASEPATH ?? "";
 const PaymentPage = () => {
   const [paymentMethod, setPaymentMethod] = useState(null); // Track the selected payment method
   const [orderSuccess, setOrderSuccess] = useState(false); // Track if the order is successful
+  const [orderTotal, setOrderTotal] = useState(0); // Track the order total amount
   const { orderId } = useParams(); // Extract the order ID from the URL
   const navigate = useNavigate(); // To navigate the user after a successful order
+
+  // Fetch order details to get the total amount
+  useEffect(() => {
+    const fetchOrderDetails = async () => {
+      try {
+        const response = await fetch(`${basePath}/api/orders/${orderId}`, {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem('userToken')}`,
+          },
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          setOrderTotal(data.totalAmount); // Set order total
+        } else {
+          console.error('Failed to fetch order details');
+        }
+      } catch (error) {
+        console.error('Error fetching order details:', error);
+      }
+    };
+
+    fetchOrderDetails();
+  }, [orderId]);
 
   // Handle selection of payment method
   const handlePaymentSelection = (method) => {
@@ -76,14 +101,20 @@ const PaymentPage = () => {
   // Handle PayPal Payment logic
   const handlePayPalPayment = async () => {
     try {
+      // Temporarily set the token in cookies for PayPal interaction
+      const userToken = localStorage.getItem('userToken');
+      if (userToken) {
+        document.cookie = `token=${userToken}; path=/; Secure; SameSite=None`;
+      }
+
       // Create PayPal order (call your server API to create a PayPal order)
       const response = await fetch(`${basePath}/api/payments/create-paypal-order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${localStorage.getItem('userToken')}`,
+          Authorization: `Bearer ${userToken}`,
         },
-        body: JSON.stringify({ amount: '100.00', currency: 'USD' }), // Example amount
+        body: JSON.stringify({ amount: orderTotal.toFixed(2), currency: 'USD' }), // Use dynamic order total
       });
 
       const data = await response.json();
